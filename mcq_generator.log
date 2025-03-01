@@ -723,3 +723,207 @@
 2025-03-01 15:19:15,944 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
 2025-03-01 15:19:17,305 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
 2025-03-01 15:19:17,307 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:38:24,374 - INFO - Attempting to run pipeline with web scraping
+2025-03-01 15:38:24,375 - INFO - Attempting to fetch standards from the web
+2025-03-01 15:38:24,376 - INFO - ====== WebDriver manager ======
+2025-03-01 15:38:27,304 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-01 15:38:27,879 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-01 15:38:28,192 - INFO - Driver [C:\Users\B_S_OkoliPC\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-01 15:38:30,535 - INFO - Attempting to fetch content from https://www.thecorestandards.org/Math/Content/5/
+2025-03-01 15:38:50,001 - INFO - Successfully fetched content from https://www.thecorestandards.org/Math/Content/5/
+2025-03-01 15:38:52,342 - INFO - Page title: Just a moment...
+2025-03-01 15:38:52,350 - INFO - Initial extraction yielded few results, trying targeted approach
+2025-03-01 15:38:52,354 - WARNING - BeautifulSoup parsing didn't extract enough standards, falling back to LLM
+2025-03-01 15:39:38,033 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:39:38,066 - INFO - Extracted 26 standards across 5 domains using LLM
+2025-03-01 15:39:38,075 - INFO - Got 26 standards
+2025-03-01 15:39:38,077 - INFO - Generating MCQs for domain: Geometry (2 standards)
+2025-03-01 15:39:38,077 - INFO - Generating questions for 5.G.A.1
+2025-03-01 15:39:57,082 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:39:57,086 - INFO - Generated 2 MCQs for 5.G.A.1
+2025-03-01 15:39:57,088 - INFO - Generating questions for 5.G.A.2
+2025-03-01 15:40:17,936 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:40:17,946 - INFO - Generated 2 MCQs for 5.G.A.2
+2025-03-01 15:40:17,947 - INFO - Generating MCQs for domain: Number & Operations in Base Ten (9 standards)
+2025-03-01 15:40:17,948 - INFO - Generating questions for 5.NBT.A.1
+2025-03-01 15:40:32,676 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:40:32,680 - INFO - Generated 2 MCQs for 5.NBT.A.1
+2025-03-01 15:40:32,681 - INFO - Generating questions for 5.NBT.A.2
+2025-03-01 15:40:47,606 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:40:47,640 - INFO - Generated 2 MCQs for 5.NBT.A.2
+2025-03-01 15:40:47,641 - INFO - Generating questions for 5.NBT.A.3
+2025-03-01 15:41:03,982 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:41:04,000 - INFO - Generated 2 MCQs for 5.NBT.A.3
+2025-03-01 15:41:04,001 - INFO - Generating questions for 5.NBT.A.3.a
+2025-03-01 15:41:27,211 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:41:27,234 - INFO - Generated 2 MCQs for 5.NBT.A.3.a
+2025-03-01 15:41:27,242 - INFO - Generating questions for 5.NBT.A.3.b
+2025-03-01 15:41:40,691 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:41:40,696 - INFO - Generated 2 MCQs for 5.NBT.A.3.b
+2025-03-01 15:41:40,697 - INFO - Generating questions for 5.NBT.A.4
+2025-03-01 15:41:53,805 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:41:53,808 - INFO - Generated 2 MCQs for 5.NBT.A.4
+2025-03-01 15:41:53,809 - INFO - Generating questions for 5.NBT.B.5
+2025-03-01 15:42:08,183 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:42:08,188 - INFO - Generated 2 MCQs for 5.NBT.B.5
+2025-03-01 15:42:08,189 - INFO - Generating questions for 5.NBT.B.6
+2025-03-01 15:42:21,463 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:42:21,466 - INFO - Generated 2 MCQs for 5.NBT.B.6
+2025-03-01 15:42:21,467 - INFO - Generating questions for 5.NBT.B.7
+2025-03-01 15:42:36,539 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:42:36,548 - INFO - Generated 2 MCQs for 5.NBT.B.7
+2025-03-01 15:42:36,549 - INFO - Generating MCQs for domain: Operations & Algebraic Thinking (2 standards)
+2025-03-01 15:42:36,550 - INFO - Generating questions for 5.OA.A.1
+2025-03-01 15:42:48,016 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:42:48,021 - INFO - Generated 2 MCQs for 5.OA.A.1
+2025-03-01 15:42:48,021 - INFO - Generating questions for 5.OA.A.2
+2025-03-01 15:43:02,035 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:43:02,040 - INFO - Generated 2 MCQs for 5.OA.A.2
+2025-03-01 15:43:02,041 - INFO - Generating MCQs for domain: Number & Operations—Fractions (7 standards)
+2025-03-01 15:43:02,043 - INFO - Generating questions for 5.NF.A.1
+2025-03-01 15:43:20,374 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:43:20,379 - INFO - Generated 2 MCQs for 5.NF.A.1
+2025-03-01 15:43:20,380 - INFO - Generating questions for 5.NF.A.2
+2025-03-01 15:43:39,632 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:43:39,635 - INFO - Generated 2 MCQs for 5.NF.A.2
+2025-03-01 15:43:39,637 - INFO - Generating questions for 5.NF.B.3
+2025-03-01 15:43:52,476 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:43:52,480 - INFO - Generated 2 MCQs for 5.NF.B.3
+2025-03-01 15:43:52,480 - INFO - Generating questions for 5.NF.B.4
+2025-03-01 15:44:09,729 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:44:09,731 - INFO - Generated 2 MCQs for 5.NF.B.4
+2025-03-01 15:44:09,731 - INFO - Generating questions for 5.NF.B.4.a
+2025-03-01 15:44:28,818 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:44:28,838 - INFO - Generated 2 MCQs for 5.NF.B.4.a
+2025-03-01 15:44:28,839 - INFO - Generating questions for 5.NF.B.4.b
+2025-03-01 15:44:44,658 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:44:44,683 - INFO - Generated 2 MCQs for 5.NF.B.4.b
+2025-03-01 15:44:44,684 - INFO - Generating questions for 5.NF.B.5
+2025-03-01 15:44:59,255 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:44:59,257 - INFO - Generated 2 MCQs for 5.NF.B.5
+2025-03-01 15:44:59,258 - INFO - Generating MCQs for domain: Measurement & Data (6 standards)
+2025-03-01 15:44:59,258 - INFO - Generating questions for 5.MD.A.1
+2025-03-01 15:45:18,528 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:45:18,531 - INFO - Generated 2 MCQs for 5.MD.A.1
+2025-03-01 15:45:18,531 - INFO - Generating questions for 5.MD.C.3
+2025-03-01 15:45:32,089 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:45:32,123 - INFO - Generated 2 MCQs for 5.MD.C.3
+2025-03-01 15:45:32,133 - INFO - Generating questions for 5.MD.C.3.a
+2025-03-01 15:45:47,718 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:45:47,722 - INFO - Generated 2 MCQs for 5.MD.C.3.a
+2025-03-01 15:45:47,722 - INFO - Generating questions for 5.MD.C.3.b
+2025-03-01 15:45:59,655 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:45:59,668 - INFO - Generated 2 MCQs for 5.MD.C.3.b
+2025-03-01 15:45:59,668 - INFO - Generating questions for 5.MD.C.4
+2025-03-01 15:46:13,900 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:46:13,906 - INFO - Generated 2 MCQs for 5.MD.C.4
+2025-03-01 15:46:13,907 - INFO - Generating questions for 5.MD.C.5
+2025-03-01 15:46:27,795 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:46:27,804 - INFO - Generated 2 MCQs for 5.MD.C.5
+2025-03-01 15:46:27,809 - INFO - Validating 52 MCQs
+2025-03-01 15:46:31,752 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:46:31,757 - INFO - MCQ 5.G.A.1 valid with suggestions: ["Consider adding a brief explanation or definition of 'coordinates' to make the question more accessible to all students, enhancing clarity and grade-appropriateness.", 'To increase the quality of distractors, ensure that each incorrect option represents a common misconception or error, such as reversing the order of the coordinates or misunderstanding the direction of movement.']
+2025-03-01 15:46:35,786 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:46:35,800 - INFO - MCQ 5.G.A.1 valid with suggestions: ['To enhance clarity, consider adding a brief explanation or reminder about how to read coordinates in the question prompt. This could help ensure all students are on the same footing, especially if they are less familiar with coordinate planes.', 'To increase engagement, consider including a simple map or diagram of the city grid with the city center and ice cream shop marked. Visual aids can greatly enhance understanding, especially in geometry.']
+2025-03-01 15:46:40,016 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:46:40,019 - INFO - MCQ 5.G.A.2 valid with suggestions: ['Consider adding a brief explanation or definition of a coordinate plane in the question or explanation section to enhance understanding, especially if this concept is being introduced.', 'You might want to specify that the x-axis is labeled with numbers representing the months (1 through 12) for clarity, ensuring students understand the representation of months as numbers.']
+2025-03-01 15:46:45,682 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:46:45,684 - INFO - MCQ 5.G.A.2 valid with suggestions: ['Consider adding a brief explanation or reminder about how to read coordinates on a grid before the question to reinforce learning and ensure all students are on the same footing.', 'Including a simple grid diagram showing the starting point and the point (5, 7) could enhance visual understanding and engagement for Grade 5 students.', "To improve the quality of distractors, you might include an option that reverses the x and y coordinates (e.g., '7 units east and 5 units north of the starting point'), as this is a common mistake and would test students' understanding more deeply."]
+2025-03-01 15:46:55,256 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:46:55,263 - INFO - MCQ 5.NBT.A.1 valid with suggestions: ["Consider rephrasing the question for enhanced clarity, such as: 'What is the value of the digit 5 in the number 4,582?' to ensure the question is directly focused on the concept of place value.", "To improve the quality of distractors, ensure that all incorrect options are plausible but can be logically eliminated. For instance, option 'D. 580' might confuse some students because it combines the digits 5 and 8 from the number. It could be beneficial to replace it with a more plausible incorrect value, such as '80', to maintain focus on place value rather than potentially misleading towards operations with digits."]
+2025-03-01 15:47:00,905 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:47:00,922 - INFO - MCQ 5.NBT.A.1 valid with suggestions: ["Consider adding a brief context or scenario to make the question more engaging and relatable for Grade 5 students. For example, 'If you are saving up to buy toy cars that cost 30 dollars each, how much money would you need to buy 10 of them?'", "To enhance the quality of distractors, you could adjust the options to include common miscalculations. For example, adding an option like '60 dollars' might represent a common mistake of simply adding the cost twice instead of multiplying."]
+2025-03-01 15:47:05,152 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:47:05,155 - INFO - MCQ 5.NBT.A.2 valid with suggestions: ['To improve clarity, consider adding a brief explanation or example of how multiplying by powers of 10 works in the question stem or as a note. This can help reinforce the concept for students.', "To enhance the quality of distractors, consider including options that represent common misconceptions, such as misunderstanding the placement of zeros, to better assess students' understanding."]
+2025-03-01 15:47:10,059 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:47:10,061 - INFO - MCQ 5.NBT.A.2 valid with suggestions: ['Consider including a brief reminder or note about what multiplying by powers of 10 does to a number for additional clarity and instructional value.', "To enhance the quality of distractors, you might include an option where the decimal is moved an incorrect number of places to the right, such as 'To the right 4 places, making it 2500', to test if students are counting the places correctly."]
+2025-03-01 15:47:15,190 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:47:15,192 - WARNING - MCQ 5.NBT.A.3 failed validation: ['Incorrect explanation regarding the smallest decimal comparison']
+2025-03-01 15:47:20,941 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:47:20,952 - WARNING - MCQ 5.NBT.A.3 failed validation: ["The marked correct answer 'A' is actually incorrect due to a misunderstanding of the explanation provided.", 'Misleading explanation for the correct answer.']
+2025-03-01 15:47:25,748 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:47:25,774 - INFO - MCQ 5.NBT.A.3.a valid with suggestions: ["Consider adding a brief explanation or example of 'expanded form' in the question stem or in the explanation to enhance understanding, especially for students who may struggle with math concepts.", "To improve clarity and ensure that the question is fully understood by all students, it might be helpful to rephrase the question slightly. For example: 'Write the decimal 0.625 in its expanded form using fractions to represent each place value.'", 'To enhance the quality of distractors, ensure that each incorrect option represents a common misunderstanding or mistake that a student might make, such as reversing the place value of digits or misunderstanding the value of each decimal place.']
+2025-03-01 15:47:30,707 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:47:30,711 - WARNING - MCQ 5.NBT.A.3.a failed validation: ['Incorrect marking of the correct answer', 'Misleading question statement']
+2025-03-01 15:47:37,386 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:47:37,393 - WARNING - MCQ 5.NBT.A.3.b failed validation: ['Explanation accuracy', 'Typographical error in explanation']
+2025-03-01 15:47:41,906 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:47:41,916 - INFO - MCQ 5.NBT.A.3.b valid with suggestions: ['To enhance clarity and engagement, consider adding a real-world context or scenario that makes the comparison more vivid and meaningful for students.', 'Although the question is clear, it might be beneficial to include a brief reminder or tip about comparing decimal numbers, as this could aid students who struggle with this concept.', 'To improve the quality of distractors, you could include an option that represents a common misunderstanding, such as misinterpreting the value of decimal places.']
+2025-03-01 15:47:45,231 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:47:45,234 - INFO - MCQ 5.NBT.A.4 valid with suggestions: ['Consider adding an option that rounds to the nearest whole number (e.g., 4) to test understanding of rounding to the nearest tenth versus rounding to the nearest whole number.']
+2025-03-01 15:47:51,532 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:47:51,536 - WARNING - MCQ 5.NBT.A.4 failed validation: ['Accuracy issue: The explanation and the nature of the question do not align with the correct rounding rules for cash transactions involving quarters.', 'Alignment issue: The question does not accurately test the cited standard (5.NBT.A.4) which involves understanding the place value system.']
+2025-03-01 15:47:55,206 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:47:55,225 - INFO - MCQ 5.NBT.B.5 valid with suggestions: ['Consider adding a context to the question that requires students to understand why they might need to triple a recipe, to enhance real-world application.', 'To increase the quality of distractors, you could include options that are common mistakes, such as doubling instead of tripling the recipe or adding 24+3.']
+2025-03-01 15:47:58,769 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:47:58,776 - INFO - MCQ 5.NBT.B.5 valid with suggestions: ['Consider adding a brief context or story to the question to make it more engaging for Grade 5 students.', "Ensure that all distractors (incorrect answers) are plausible to challenge the students' understanding and avoid any that are too far off from the correct answer to maintain the quality of the question."]
+2025-03-01 15:48:01,605 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:48:01,606 - INFO - MCQ 5.NBT.B.6 valid with suggestions: ['Consider adding a context to the question to make it more engaging. For example, mention the destination of the field trip.', "To enhance clarity, specify that all buses will be filled to capacity, ensuring there's no ambiguity about partial buses."]
+2025-03-01 15:48:04,695 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:48:04,708 - INFO - MCQ 5.NBT.B.6 valid with suggestions: ['Consider adding a distractor that results from a common mistake, such as forgetting to carry over a digit, to challenge students to check their work carefully.', 'To enhance clarity and engagement, consider adding a brief context or scenario about why Olivia is distributing stickers among her friends.']
+2025-03-01 15:48:08,790 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:48:08,795 - WARNING - MCQ 5.NBT.B.7 failed validation: ['The marked correct answer is incorrect.', 'Explanation does not match the correct answer.']
+2025-03-01 15:48:13,809 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:48:13,814 - INFO - MCQ 5.NBT.B.7 valid with suggestions: ['Consider providing a context or scenario that might make the question more engaging for students. For example, mentioning the type of project Sara is working on could make the problem more relatable.', "To improve clarity, you could rephrase the question slightly for better flow. For instance: 'Sara has a ribbon that is 3.45 meters long. She uses 1.78 meters of it for a project. How much ribbon does she have left?'", 'To enhance the quality of distractors, ensure that they are all plausible outcomes of common mistakes that students might make when solving the problem. For example, adding instead of subtracting, or subtracting in the wrong order.']
+2025-03-01 15:48:17,812 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:48:17,813 - INFO - MCQ 5.OA.A.1 valid with suggestions: ['Consider adding a brief reminder or note about the order of operations (PEMDAS/BODMAS) to further support learning objectives and reinforce essential math skills.', 'To enhance the quality of distractors, you might include an option that reflects a common mistake of adding 3 + 4 before multiplying by 5, which would cater to identifying misconceptions about the order of operations.']
+2025-03-01 15:48:20,903 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:48:20,961 - WARNING - MCQ 5.OA.A.1 failed validation: ['Incorrect explanation and marked answer', 'Misalignment with the cited standard']
+2025-03-01 15:48:25,339 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:48:25,341 - INFO - MCQ 5.OA.A.2 valid with suggestions: ['Consider adding a brief explanation for each distractor in the explanation section. This would help educators understand and explain why each incorrect option was wrong, reinforcing learning and understanding of the concept.', "To enhance clarity and engagement, consider rephrasing the question slightly to: 'How would you write an expression for subtracting 5 from 15 and then dividing the result by 2?' This minor adjustment makes the question more direct and active."]
+2025-03-01 15:48:29,995 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:48:29,998 - INFO - MCQ 5.OA.A.2 valid with suggestions: ["Consider adding a real-life context to the question to make it more engaging. For example, 'If you're packing 3 bags for a picnic, and each bag has 4 apples and 2 oranges, which expression best represents the total number of fruits?'", 'To enhance clarity, it might be helpful to explicitly state that the question is asking for the total number of fruits in all bags combined. This can prevent any misunderstanding about whether to calculate the contents of one bag or the combined contents of all bags.', 'To improve the quality of distractors, ensure that each wrong answer reflects a common misconception or error that a Grade 5 student might make, such as misunderstanding the distributive property or adding instead of multiplying.']
+2025-03-01 15:48:33,188 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:48:33,190 - WARNING - MCQ 5.NF.A.1 failed validation: ['Incorrect calculation for the correct answer']
+2025-03-01 15:48:36,365 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:48:36,367 - WARNING - MCQ 5.NF.A.1 failed validation: ['Incorrect calculation in explanation leading to wrong correct answer']
+2025-03-01 15:48:39,824 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:48:39,826 - WARNING - MCQ 5.NF.A.2 failed validation: ['The marked answer is incorrect.']
+2025-03-01 15:48:42,955 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:48:42,956 - WARNING - MCQ 5.NF.A.2 failed validation: ['Incorrect correct answer']
+2025-03-01 15:48:50,038 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:48:50,056 - INFO - MCQ 5.NF.B.3 valid with suggestions: ["Consider rephrasing the question for clarity and to directly connect it with fractions, such as 'Samantha had 6 cookies that she wanted to share equally among her 2 friends. What fraction of the cookies does each friend get?' This could help reinforce the connection to the standard 5.NF.B.3, which is about understanding a fraction a/b as the quantity formed by a parts of size 1/b.", 'To enhance the quality of distractors, you might include options that are common mistakes when dealing with fractions or division, such as fractions that would result if students misunderstand the division process.']
+2025-03-01 15:48:54,869 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:48:54,870 - INFO - MCQ 5.NF.B.3 valid with suggestions: ['Consider adding a real-world context to the question to make it more engaging. For example, mentioning a specific type of bread or a scenario where the bread is being made could increase student interest.', 'To improve the quality of distractors, ensure that all options are plausible outcomes of common mistakes that might be made when solving the problem. For instance, including an option that is the result of adding instead of dividing could test for a common misunderstanding.']
+2025-03-01 15:48:58,188 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:48:58,190 - INFO - MCQ 5.NF.B.4 valid with suggestions: ['Consider adding a brief explanation in the options section that clarifies why each incorrect option is wrong, to enhance learning outcomes.', "To improve clarity and engagement, consider including a context or scenario that relates to students' real-life experiences, making the problem more relatable and engaging."]
+2025-03-01 15:49:02,848 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:49:02,850 - WARNING - MCQ 5.NF.B.4 failed validation: ['Incorrect correct answer option', 'Explanation does not match the correct answer option']
+2025-03-01 15:49:08,299 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:49:08,303 - WARNING - MCQ 5.NF.B.4.a failed validation: ['Explanation contradicts the correct answer', 'Misalignment with the standard 5.NF.B.4.a']
+2025-03-01 15:49:11,750 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:49:11,754 - WARNING - MCQ 5.NF.B.4.a failed validation: ['Incorrect Correct Answer']
+2025-03-01 15:49:18,464 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:49:18,469 - WARNING - MCQ 5.NF.B.4.b failed validation: ['Explanation misinterpretation', 'Incorrect unit in the explanation and correct answer']
+2025-03-01 15:49:25,840 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:49:25,849 - WARNING - MCQ 5.NF.B.4.b failed validation: ['The marked answer is incorrect based on the mathematical operation required.']
+2025-03-01 15:49:29,869 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:49:29,875 - WARNING - MCQ 5.NF.B.5 failed validation: ['Explanation inaccurately describes the result.', "Explanation misinterprets the question's intent."]
+2025-03-01 15:49:33,490 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:49:33,493 - WARNING - MCQ 5.NF.B.5 failed validation: ['Incorrect marked answer']
+2025-03-01 15:49:37,220 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:49:37,222 - INFO - MCQ 5.MD.A.1 valid with suggestions: ['Consider adding a brief explanation about the relationship between milliliters and liters in the question stem to reinforce learning.', "To increase the question's educational value, you might include a follow-up question asking students to convert liters back to milliliters or to convert different units of measurement."]
+2025-03-01 15:49:40,340 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:49:40,341 - INFO - MCQ 5.MD.A.1 valid with suggestions: ['Consider adding a brief reminder or note about the conversion between meters and kilometers to support students who may struggle with metric conversions.', 'To increase clarity, specify that the track is a closed loop, ensuring students understand that one lap equates to returning to the starting point.']
+2025-03-01 15:49:45,091 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:49:45,096 - INFO - MCQ 5.MD.C.3 valid with suggestions: ['Consider adding a real-world context or application to make the question more engaging and meaningful for students.', "You might want to include units in the question stem for 'volume' to reinforce the concept of volume measurement (e.g., 'What is the volume of water the tank can hold in cubic centimeters?').", 'To enhance the quality of distractors, ensure that the incorrect options are derived from common misconceptions or calculation errors (e.g., adding instead of multiplying dimensions, or only multiplying two dimensions).']
+2025-03-01 15:49:50,489 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:49:50,492 - INFO - MCQ 5.MD.C.3 valid with suggestions: ['Consider adding a brief explanation in the question stem or as a note that the volume of a cube is calculated as the cube of the side length. This could provide a hint and reinforce learning.', 'To increase the quality of distractors, consider choosing numbers that are more closely related to common mistakes students might make, such as squaring instead of cubing (e.g., include an option for the square root of 125).', 'Ensure that the explanation clearly ties back to the standard by explicitly mentioning how this problem relates to understanding and applying volume measurements.']
+2025-03-01 15:49:54,368 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:49:54,372 - INFO - MCQ 5.MD.C.3.a valid with suggestions: ['Consider adding units of measure (e.g., centimeters, meters) to make the question more relatable and to provide practice with standard units of measure, which is also a part of the curriculum.', "Enhance clarity by specifying that the box is a cube by mentioning 'a cubic box' or 'a cube', which may help students visualize the problem better."]
+2025-03-01 15:49:57,272 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:49:57,274 - INFO - MCQ 5.MD.C.3.a valid with suggestions: ['Consider rephrasing the question for clarity, such as specifying that the unit cubes are arranged in a rectangular prism or specifying dimensions more clearly to avoid any potential confusion.', 'Add more context or a real-world application to the question to increase engagement and understanding of practical use.']
+2025-03-01 15:50:02,329 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:50:02,332 - INFO - MCQ 5.MD.C.3.b valid with suggestions: ["Consider providing units for the options to reinforce the concept of volume being measured in cubic units (e.g., '24 cubic units' instead of just '24').", 'You might want to include more challenging distractors that result from common miscalculations (e.g., adding the dimensions instead of multiplying them) to better assess understanding.']
+2025-03-01 15:50:06,710 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:50:06,712 - INFO - MCQ 5.MD.C.3.b valid with suggestions: ['Consider adding a brief explanation or hint about cube roots in the question or explanation to reinforce the concept, as this could enhance understanding for Grade 5 students not yet familiar with cube roots.', "To increase the question's educational value, you might add a follow-up question asking for the volume of one of the unit cubes or how many unit cubes make up the tank."]
+2025-03-01 15:50:11,816 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:50:11,818 - WARNING - MCQ 5.MD.C.4 failed validation: ['Incorrect dimensions description', 'Misalignment with the cited standard']
+2025-03-01 15:50:15,954 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:50:15,957 - INFO - MCQ 5.MD.C.4 valid with suggestions: ['Consider adding a brief explanation or formula for volume in the question stem or explanation to reinforce the concept for Grade 5 students.', 'To enhance clarity, you might specify that you are asking for the length of one side of the cube, as some students might misunderstand and think about dimensions other than length.']
+2025-03-01 15:50:19,854 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:50:19,951 - INFO - MCQ 5.MD.C.5 valid with suggestions: ['Consider adding a real-world context to the question to make it more engaging for students. For example, you could frame the question around packing a box.', 'To improve clarity and ensure understanding, you might include a diagram of the rectangular prism with its dimensions labeled.']
+2025-03-01 15:50:26,530 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 15:50:26,582 - INFO - MCQ 5.MD.C.5 valid with suggestions: ['Consider adding a brief explanation in the question or in the options about how volume is calculated (length x width x height) to reinforce learning and ensure clarity.', 'To enhance clarity and reinforce learning, consider rephrasing the explanation to explicitly state that when the length and width are doubled, the area of the base is quadrupled, and since the height remains the same, the volume is also quadrupled. This helps explain why the volume is not simply doubled.', 'For an additional challenge and to test understanding further, consider including a follow-up question asking students to calculate the volume if the height were also doubled.']
+2025-03-01 15:50:26,583 - INFO - Validation complete: 33 valid, 19 invalid
+2025-03-01 15:50:26,611 - INFO - Saved 33 MCQs to grade5_math_mcqs.json

@@ -40,10 +40,10 @@ logger = logging.getLogger(__name__)
 
 def get_api_key():
     """Get OpenAI API key from environment variable or prompt user"""
+    os.environ['OPENAI_API_KEY'] = 'enter API key'  #please enter your API key here
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
         api_key = input("Enter your OpenAI API key: ")
-    print(f"Retrieved API key starts with: {api_key[:5]}...")  # Print first 5 characters for security
     return api_key
 
 @retry(

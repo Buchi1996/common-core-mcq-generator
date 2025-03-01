@@ -1,257 +1,404 @@
 {
   "grade": 5,
-  "total_mcqs": 34,
+  "total_mcqs": 33,
   "generated_date": "2025-03-01",
   "mcqs": [
     {
       "standard_id": "5.G.A.1",
       "domain": "Geometry",
-      "question_text": "Samantha is playing a video game where she needs to move her character to a safe zone located at (3, 5) on the map. If the origin is at (0, 0), in which direction does she first move her character?",
+      "question_text": "Samantha is playing a video game where she needs to move her character to a treasure chest located at a certain point on the map. If the treasure chest is located 3 units to the right of the origin and 2 units up, what are the coordinates of the treasure chest?",
       "options": [
         {
           "label": "A",
-          "text": "3 steps up"
+          "text": "(2, 3)"
         },
         {
           "label": "B",
-          "text": "3 steps to the right"
+          "text": "(3, 2)"
         },
         {
           "label": "C",
-          "text": "5 steps up"
+          "text": "(-3, -2)"
         },
         {
           "label": "D",
-          "text": "5 steps to the right"
+          "text": "(3, -2)"
         }
       ],
       "correct_answer": "B",
-      "explanation": "The first number in the ordered pair (3, 5) tells us how far to move from the origin along the x-axis, which is horizontal. Therefore, Samantha needs to move her character 3 steps to the right.",
+      "explanation": "The first number in the coordinates tells us how far to move horizontally from the origin, and the second number tells us how far to move vertically. Since the treasure chest is 3 units to the right and 2 units up, its coordinates are (3, 2).",
       "difficulty": "easy",
       "improvement_suggestions": [
-        "Consider adding a brief explanation or reminder about coordinate systems before the question to reinforce understanding.",
-        "To increase the question's educational value, consider providing a brief explanation for why the other options are incorrect in the feedback to students.",
-        "Enhance the scenario to include a reason for why understanding directions on a coordinate plane is useful, linking it to real-life applications."
+        "Consider adding a brief explanation or definition of 'coordinates' to make the question more accessible to all students, enhancing clarity and grade-appropriateness.",
+        "To increase the quality of distractors, ensure that each incorrect option represents a common misconception or error, such as reversing the order of the coordinates or misunderstanding the direction of movement."
       ]
     },
     {
       "standard_id": "5.G.A.1",
       "domain": "Geometry",
-      "question_text": "In a treasure map, the treasure is marked at the coordinate (-4, 2). Starting from the origin (0, 0), how would you describe the path to reach the treasure?",
+      "question_text": "In a city grid, the ice cream shop is located at the point (4, -5) from the city center. This means the shop is:",
       "options": [
         {
           "label": "A",
-          "text": "4 steps left and 2 steps up"
+          "text": "4 blocks east and 5 blocks south of the city center."
         },
         {
           "label": "B",
-          "text": "4 steps right and 2 steps down"
+          "text": "4 blocks west and 5 blocks north of the city center."
         },
         {
           "label": "C",
-          "text": "2 steps left and 4 steps up"
+          "text": "5 blocks east and 4 blocks south of the city center."
         },
         {
           "label": "D",
-          "text": "2 steps right and 4 steps down"
+          "text": "4 blocks east and 5 blocks north of the city center."
         }
       ],
       "correct_answer": "A",
-      "explanation": "The first number in the coordinate (-4, 2) tells us to move 4 steps to the left because it is negative, and the second number tells us to move 2 steps up along the y-axis.",
+      "explanation": "Coordinates are given as (x, y), where x is the horizontal distance (positive for east, negative for west) and y is the vertical distance (positive for north, negative for south) from the origin. Since the shop is at (4, -5), it is 4 blocks east (positive x) and 5 blocks south (negative y) of the city center.",
       "difficulty": "medium",
       "improvement_suggestions": [
-        "Consider adding a brief explanation or reminder about how coordinates work, to make the question more educational and self-contained.",
-        "To enhance clarity and engagement, consider adding a simple diagram of the coordinate plane with the origin and the treasure's location marked. This visual aid could help students better visualize the path they need to describe.",
-        "For a more comprehensive assessment, you could include a follow-up question asking students to describe the path from the treasure back to the origin, reinforcing their understanding of positive and negative coordinates."
+        "To enhance clarity, consider adding a brief explanation or reminder about how to read coordinates in the question prompt. This could help ensure all students are on the same footing, especially if they are less familiar with coordinate planes.",
+        "To increase engagement, consider including a simple map or diagram of the city grid with the city center and ice cream shop marked. Visual aids can greatly enhance understanding, especially in geometry."
       ]
     },
     {
       "standard_id": "5.G.A.2",
       "domain": "Geometry",
-      "question_text": "Samantha is making a graph to show the number of books she reads each month. In January, she reads 5 books. Which point on the coordinate plane represents the number of books she read in January if the x-axis represents the month number and the y-axis represents the number of books?",
+      "question_text": "Samantha is making a graph of the number of books she reads each month. In January, she reads 3 books. On a coordinate plane, where should she plot the point for January if the x-axis represents the month as number 1 and the y-axis represents the number of books?",
       "options": [
         {
           "label": "A",
-          "text": "(1, 5)"
+          "text": "(1, 3)"
         },
         {
           "label": "B",
-          "text": "(5, 1)"
+          "text": "(3, 1)"
         },
         {
           "label": "C",
-          "text": "(5, 5)"
+          "text": "(0, 3)"
         },
         {
           "label": "D",
-          "text": "(0, 5)"
+          "text": "(3, 0)"
         }
       ],
       "correct_answer": "A",
-      "explanation": "The correct point is (1, 5) because the x-axis (month number) for January is 1, and the y-axis (number of books) is 5.",
+      "explanation": "In a coordinate plane, the first number (or x-coordinate) tells us the position along the horizontal axis, and the second number (or y-coordinate) tells us the position along the vertical axis. Since January is represented by number 1 (for the first month) and she reads 3 books, the point should be (1, 3) where 1 is on the x-axis and 3 is on the y-axis.",
       "difficulty": "easy",
       "improvement_suggestions": [
-        "Consider adding a brief explanation or reminder about how to read coordinates on a graph for Grade 5 students to reinforce learning and understanding.",
-        "It could be beneficial to include a visual representation of the coordinate plane with this question to enhance comprehension and engagement.",
-        "To ensure clarity, it might be helpful to explicitly state that the month of January corresponds to the number 1 on the x-axis, for those who may not immediately make that connection."
+        "Consider adding a brief explanation or definition of a coordinate plane in the question or explanation section to enhance understanding, especially if this concept is being introduced.",
+        "You might want to specify that the x-axis is labeled with numbers representing the months (1 through 12) for clarity, ensuring students understand the representation of months as numbers."
       ]
     },
     {
       "standard_id": "5.G.A.2",
       "domain": "Geometry",
-      "question_text": "A treasure map shows a treasure chest hidden at the point (8, 4) in the first quadrant of a coordinate plane. The x-coordinate represents the number of steps east, and the y-coordinate represents the number of steps north. If you start at the origin, how many steps east and then north must you walk to find the treasure?",
+      "question_text": "In a video game, Alex needs to move his character to a safe zone located at point (5, 7) on a map grid to win a bonus. If the x-coordinate represents the distance east of the starting point and the y-coordinate represents the distance north, which option correctly describes the character's destination?",
       "options": [
         {
           "label": "A",
-          "text": "8 steps east and 4 steps north"
+          "text": "5 units east and 7 units south of the starting point"
         },
         {
           "label": "B",
-          "text": "4 steps east and 8 steps north"
+          "text": "5 units west and 7 units north of the starting point"
         },
         {
           "label": "C",
-          "text": "12 steps east"
+          "text": "5 units east and 7 units north of the starting point"
         },
         {
           "label": "D",
-          "text": "12 steps north"
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "The point (8, 4) means you must walk 8 steps east (x-coordinate) and then 4 steps north (y-coordinate) to find the treasure.",
-      "difficulty": "medium",
-      "improvement_suggestions": [
-        "Consider adding a visual representation of the coordinate plane with the point (8, 4) marked. This could help students better visualize the question and understand coordinate planes.",
-        "Include a brief reminder or explanation of how to read coordinates on a graph, ensuring clarity for all students, especially those who may need a quick refresher.",
-        "To enhance the quality of distractors, you could add an option that mixes up the order of steps (e.g., '4 steps north and 8 steps east'), testing if students understand the importance of the order in coordinates."
-      ]
-    },
-    {
-      "standard_id": "5.G.B.3",
-      "domain": "Geometry",
-      "question_text": "Which statement is true about all parallelograms?",
-      "options": [
-        {
-          "label": "A",
-          "text": "They have at least one right angle."
-        },
-        {
-          "label": "B",
-          "text": "They have 4 equal sides."
-        },
-        {
-          "label": "C",
-          "text": "They have opposite sides that are parallel and equal in length."
-        },
-        {
-          "label": "D",
-          "text": "They have 6 sides."
+          "text": "7 units east and 5 units south of the starting point"
         }
       ],
       "correct_answer": "C",
-      "explanation": "All parallelograms, by definition, have opposite sides that are parallel and equal in length. This attribute applies to all shapes in the parallelogram category, including rectangles and squares.",
-      "difficulty": "easy",
-      "improvement_suggestions": [
-        "Consider adding a brief definition or example of a parallelogram in the explanation to enhance understanding, especially for visual learners.",
-        "To improve clarity and engagement, include diagrams of parallelograms and non-parallelograms with the question. This visual aid can help students better grasp the concept of parallel and equal-length opposite sides."
-      ]
-    },
-    {
-      "standard_id": "5.G.B.3",
-      "domain": "Geometry",
-      "question_text": "A shape is classified as a rectangle. Which attribute does this shape definitely have?",
-      "options": [
-        {
-          "label": "A",
-          "text": "4 equal sides"
-        },
-        {
-          "label": "B",
-          "text": "At least one acute angle"
-        },
-        {
-          "label": "C",
-          "text": "4 right angles"
-        },
-        {
-          "label": "D",
-          "text": "More than 4 sides"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "All rectangles have 4 right angles. This is a defining attribute of rectangles, which also applies to squares since squares are a type of rectangle.",
+      "explanation": "In a coordinate system, the first number (x-coordinate) tells us the horizontal position, and the second number (y-coordinate) tells us the vertical position. Since Alex needs to move to (5, 7), it means he must move 5 units to the east (right) and 7 units to the north (up) from the starting point.",
       "difficulty": "medium",
       "improvement_suggestions": [
-        "To enhance clarity and engagement, consider adding a visual component to the question, such as showing different shapes and asking students to identify the rectangle based on its attributes.",
-        "To improve the quality of distractors, option B could be revised to be less obviously incorrect since rectangles can have acute angles only if they are considered in the context of broader geometric figures, which might confuse some students. A better distractor might focus on common misconceptions about rectangles, such as 'All sides must be the same length,' which confuses squares with rectangles."
-      ]
-    },
-    {
-      "standard_id": "5.G.B.4",
-      "domain": "Geometry",
-      "question_text": "Which of the following shapes can be classified as both a rectangle and a square?",
-      "options": [
-        {
-          "label": "A",
-          "text": "A shape with 4 sides of equal length and no right angles"
-        },
-        {
-          "label": "B",
-          "text": "A shape with 4 sides, where only 2 sides are of equal length and has 4 right angles"
-        },
-        {
-          "label": "C",
-          "text": "A shape with 4 sides of equal length and 4 right angles"
-        },
-        {
-          "label": "D",
-          "text": "A shape with 3 sides of equal length and no right angles"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "A square can always be classified as a rectangle because it meets the criteria of having 4 right angles and opposite sides that are equal. However, a square has the additional property of all four sides being of equal length.",
-      "difficulty": "easy",
-      "improvement_suggestions": [
-        "Consider rephrasing Option A to specify 'without specifying the angle types' for clarity, as the absence of right angles is a critical point.",
-        "For Option B, it might be clearer to state 'with two pairs of adjacent sides of equal length' to emphasize the rectangle's characteristics without implying that it could be any other quadrilateral.",
-        "Option D could be omitted or replaced with another quadrilateral option that might be more commonly confused with rectangles or squares, such as a parallelogram or rhombus, to enhance the quality of distractors."
-      ]
-    },
-    {
-      "standard_id": "5.G.B.4",
-      "domain": "Geometry",
-      "question_text": "Which statement is true about classifying a two-dimensional figure as a parallelogram?",
-      "options": [
-        {
-          "label": "A",
-          "text": "It must have 4 sides of equal length."
-        },
-        {
-          "label": "B",
-          "text": "It must have 1 pair of parallel sides."
-        },
-        {
-          "label": "C",
-          "text": "It must have 4 right angles."
-        },
-        {
-          "label": "D",
-          "text": "It must have 2 pairs of parallel sides."
-        }
-      ],
-      "correct_answer": "D",
-      "explanation": "A parallelogram is defined by having two pairs of parallel sides. The lengths of the sides do not need to be equal, nor does it need to have any right angles, which distinguishes it from rectangles and squares.",
-      "difficulty": "medium",
-      "improvement_suggestions": [
-        "Consider adding a visual component to the question to enhance understanding for visual learners.",
-        "Include an option that explicitly states the figure does not necessarily need to have sides of equal length to avoid confusion with a rhombus, enhancing the quality of distractors."
+        "Consider adding a brief explanation or reminder about how to read coordinates on a grid before the question to reinforce learning and ensure all students are on the same footing.",
+        "Including a simple grid diagram showing the starting point and the point (5, 7) could enhance visual understanding and engagement for Grade 5 students.",
+        "To improve the quality of distractors, you might include an option that reverses the x and y coordinates (e.g., '7 units east and 5 units north of the starting point'), as this is a common mistake and would test students' understanding more deeply."
       ]
     },
     {
       "standard_id": "5.NBT.A.1",
       "domain": "Number & Operations in Base Ten",
-      "question_text": "In the number 3,452, which digit is 10 times greater than the digit to its right?",
+      "question_text": "In the number 4,582, what is the value of the digit 5?",
+      "options": [
+        {
+          "label": "A",
+          "text": "500"
+        },
+        {
+          "label": "B",
+          "text": "50"
+        },
+        {
+          "label": "C",
+          "text": "5,000"
+        },
+        {
+          "label": "D",
+          "text": "580"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "In the number 4,582, the digit 5 is in the hundreds place, meaning it represents 5 hundreds or 500.",
+      "difficulty": "easy",
+      "improvement_suggestions": [
+        "Consider rephrasing the question for enhanced clarity, such as: 'What is the value of the digit 5 in the number 4,582?' to ensure the question is directly focused on the concept of place value.",
+        "To improve the quality of distractors, ensure that all incorrect options are plausible but can be logically eliminated. For instance, option 'D. 580' might confuse some students because it combines the digits 5 and 8 from the number. It could be beneficial to replace it with a more plausible incorrect value, such as '80', to maintain focus on place value rather than potentially misleading towards operations with digits."
+      ]
+    },
+    {
+      "standard_id": "5.NBT.A.1",
+      "domain": "Number & Operations in Base Ten",
+      "question_text": "If you know a toy car costs 30 dollars, how much would 10 toy cars cost?",
+      "options": [
+        {
+          "label": "A",
+          "text": "300 dollars"
+        },
+        {
+          "label": "B",
+          "text": "3 dollars"
+        },
+        {
+          "label": "C",
+          "text": "3000 dollars"
+        },
+        {
+          "label": "D",
+          "text": "30 dollars"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Since each toy car costs 30 dollars, 10 toy cars would cost 10 times as much, which is 300 dollars.",
+      "difficulty": "medium",
+      "improvement_suggestions": [
+        "Consider adding a brief context or scenario to make the question more engaging and relatable for Grade 5 students. For example, 'If you are saving up to buy toy cars that cost 30 dollars each, how much money would you need to buy 10 of them?'",
+        "To enhance the quality of distractors, you could adjust the options to include common miscalculations. For example, adding an option like '60 dollars' might represent a common mistake of simply adding the cost twice instead of multiplying."
+      ]
+    },
+    {
+      "standard_id": "5.NBT.A.2",
+      "domain": "Number & Operations in Base Ten",
+      "question_text": "What is the product of 3 \u00d7 10^2?",
+      "options": [
+        {
+          "label": "A",
+          "text": "300"
+        },
+        {
+          "label": "B",
+          "text": "30"
+        },
+        {
+          "label": "C",
+          "text": "3000"
+        },
+        {
+          "label": "D",
+          "text": "3.0"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "When you multiply a number by 10 raised to a power, you add that many zeros to the end of the number. Multiplying 3 by 10^2 (or 100) gives you 300, as you're adding two zeros to the number 3.",
+      "difficulty": "easy",
+      "improvement_suggestions": [
+        "To improve clarity, consider adding a brief explanation or example of how multiplying by powers of 10 works in the question stem or as a note. This can help reinforce the concept for students.",
+        "To enhance the quality of distractors, consider including options that represent common misconceptions, such as misunderstanding the placement of zeros, to better assess students' understanding."
+      ]
+    },
+    {
+      "standard_id": "5.NBT.A.2",
+      "domain": "Number & Operations in Base Ten",
+      "question_text": "If you multiply 0.25 by 10^3, where will the decimal point move?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To the right 3 places, making it 250"
+        },
+        {
+          "label": "B",
+          "text": "To the left 3 places, making it 0.00025"
+        },
+        {
+          "label": "C",
+          "text": "To the right 2 places, making it 25"
+        },
+        {
+          "label": "D",
+          "text": "It does not move; the number remains 0.25"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "When you multiply a decimal by 10 raised to a power, you move the decimal point to the right that many places. Multiplying 0.25 by 10^3 (or 1000) moves the decimal point three places to the right, turning it into 250.",
+      "difficulty": "medium",
+      "improvement_suggestions": [
+        "Consider including a brief reminder or note about what multiplying by powers of 10 does to a number for additional clarity and instructional value.",
+        "To enhance the quality of distractors, you might include an option where the decimal is moved an incorrect number of places to the right, such as 'To the right 4 places, making it 2500', to test if students are counting the places correctly."
+      ]
+    },
+    {
+      "standard_id": "5.NBT.A.3.a",
+      "domain": "Number & Operations in Base Ten",
+      "question_text": "Which of the following represents the decimal 0.625 in expanded form?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 \u00d7 (1/10) + 2 \u00d7 (1/100) + 5 \u00d7 (1/1000)"
+        },
+        {
+          "label": "B",
+          "text": "6 \u00d7 (1/100) + 2 \u00d7 (1/10) + 5 \u00d7 (1/1000)"
+        },
+        {
+          "label": "C",
+          "text": "6 \u00d7 (1/10) + 2 \u00d7 (1/1000) + 5 \u00d7 (1/100)"
+        },
+        {
+          "label": "D",
+          "text": "0.6 + 0.02 + 0.005"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "The expanded form of 0.625 is 6 \u00d7 (1/10) + 2 \u00d7 (1/100) + 5 \u00d7 (1/1000), because 0.625 is made up of 6 tenths, 2 hundredths, and 5 thousandths.",
+      "difficulty": "easy",
+      "improvement_suggestions": [
+        "Consider adding a brief explanation or example of 'expanded form' in the question stem or in the explanation to enhance understanding, especially for students who may struggle with math concepts.",
+        "To improve clarity and ensure that the question is fully understood by all students, it might be helpful to rephrase the question slightly. For example: 'Write the decimal 0.625 in its expanded form using fractions to represent each place value.'",
+        "To enhance the quality of distractors, ensure that each incorrect option represents a common misunderstanding or mistake that a student might make, such as reversing the place value of digits or misunderstanding the value of each decimal place."
+      ]
+    },
+    {
+      "standard_id": "5.NBT.A.3.b",
+      "domain": "Number & Operations in Base Ten",
+      "question_text": "If you have $0.372 from recycling cans and your friend has $0.739 from a lemonade stand, who has more money?",
+      "options": [
+        {
+          "label": "A",
+          "text": "You have more"
+        },
+        {
+          "label": "B",
+          "text": "Your friend has more"
+        },
+        {
+          "label": "C",
+          "text": "You both have the same amount"
+        },
+        {
+          "label": "D",
+          "text": "It cannot be determined"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "To compare the amounts, look at the digits in each decimal place. The first digit where the amounts differ is the tenths place, with 7 (in $0.739) being greater than 3 (in $0.372). Therefore, your friend has more money.",
+      "difficulty": "medium",
+      "improvement_suggestions": [
+        "To enhance clarity and engagement, consider adding a real-world context or scenario that makes the comparison more vivid and meaningful for students.",
+        "Although the question is clear, it might be beneficial to include a brief reminder or tip about comparing decimal numbers, as this could aid students who struggle with this concept.",
+        "To improve the quality of distractors, you could include an option that represents a common misunderstanding, such as misinterpreting the value of decimal places."
+      ]
+    },
+    {
+      "standard_id": "5.NBT.A.4",
+      "domain": "Number & Operations in Base Ten",
+      "question_text": "Round the number 3.678 to the nearest tenth.",
+      "options": [
+        {
+          "label": "A",
+          "text": "3.6"
+        },
+        {
+          "label": "B",
+          "text": "3.7"
+        },
+        {
+          "label": "C",
+          "text": "3.67"
+        },
+        {
+          "label": "D",
+          "text": "3.68"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "To round to the nearest tenth, look at the hundredths place. Since it is 7 (which is 5 or more), we round the tenths place up, changing 3.6 to 3.7.",
+      "difficulty": "easy",
+      "improvement_suggestions": [
+        "Consider adding an option that rounds to the nearest whole number (e.g., 4) to test understanding of rounding to the nearest tenth versus rounding to the nearest whole number."
+      ]
+    },
+    {
+      "standard_id": "5.NBT.B.5",
+      "domain": "Number & Operations in Base Ten",
+      "question_text": "Samantha is baking cookies for her friends. She uses a recipe that makes 24 cookies and decides to triple the recipe to have enough for everyone. How many cookies does Samantha make?",
+      "options": [
+        {
+          "label": "A",
+          "text": "72"
+        },
+        {
+          "label": "B",
+          "text": "68"
+        },
+        {
+          "label": "C",
+          "text": "84"
+        },
+        {
+          "label": "D",
+          "text": "96"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "To find out how many cookies Samantha makes, multiply the original amount (24) by 3. 24 x 3 = 72. So, Samantha makes 72 cookies.",
+      "difficulty": "easy",
+      "improvement_suggestions": [
+        "Consider adding a context to the question that requires students to understand why they might need to triple a recipe, to enhance real-world application.",
+        "To increase the quality of distractors, you could include options that are common mistakes, such as doubling instead of tripling the recipe or adding 24+3."
+      ]
+    },
+    {
+      "standard_id": "5.NBT.B.5",
+      "domain": "Number & Operations in Base Ten",
+      "question_text": "If a school cafeteria serves 256 students and each student gets 124 grams of pasta, how many grams of pasta does the cafeteria need in total?",
+      "options": [
+        {
+          "label": "A",
+          "text": "31,744"
+        },
+        {
+          "label": "B",
+          "text": "32,000"
+        },
+        {
+          "label": "C",
+          "text": "30,000"
+        },
+        {
+          "label": "D",
+          "text": "31,684"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "To find the total grams of pasta needed, multiply the number of students (256) by the grams of pasta per student (124). 256 x 124 = 31,744. Therefore, the cafeteria needs 31,744 grams of pasta in total.",
+      "difficulty": "hard",
+      "improvement_suggestions": [
+        "Consider adding a brief context or story to the question to make it more engaging for Grade 5 students.",
+        "Ensure that all distractors (incorrect answers) are plausible to challenge the students' understanding and avoid any that are too far off from the correct answer to maintain the quality of the question."
+      ]
+    },
+    {
+      "standard_id": "5.NBT.B.6",
+      "domain": "Number & Operations in Base Ten",
+      "question_text": "A class of 48 students is going on a field trip. If each bus can hold 12 students, how many buses are needed for the whole class?",
       "options": [
         {
           "label": "A",
@@ -267,572 +414,207 @@
         },
         {
           "label": "D",
-          "text": "2"
+          "text": "6"
         }
       ],
       "correct_answer": "B",
-      "explanation": "In the number 3,452, the digit 4 is in the hundreds place, which is 10 times greater than the digit 5 in the tens place to its right.",
+      "explanation": "To find out how many buses are needed, divide the total number of students by the number of students each bus can hold. 48 divided by 12 equals 4. Therefore, 4 buses are needed.",
       "difficulty": "easy",
       "improvement_suggestions": [
-        "Consider adding a brief explanation why each incorrect option is not the right choice in the explanation section. This would provide a more comprehensive understanding for students reviewing the question and answer.",
-        "To enhance clarity, it might be helpful to explicitly state or remind students that in a multi-digit number, each digit is ten times the value of the digit to its right. This reinforces the concept being tested."
-      ]
-    },
-    {
-      "standard_id": "5.NBT.A.2",
-      "domain": "Number & Operations in Base Ten",
-      "question_text": "What is the result of multiplying 3 by 10 to the power of 2?",
-      "options": [
-        {
-          "label": "A",
-          "text": "30"
-        },
-        {
-          "label": "B",
-          "text": "300"
-        },
-        {
-          "label": "C",
-          "text": "3000"
-        },
-        {
-          "label": "D",
-          "text": "3.0"
-        }
-      ],
-      "correct_answer": "B",
-      "explanation": "Multiplying a number by 10 to the power of 2 (or 10^2) is the same as multiplying the number by 100. So, 3 * 100 = 300.",
-      "difficulty": "easy",
-      "improvement_suggestions": [
-        "Consider adding context or a real-life application to the question to enhance engagement and understanding.",
-        "Rephrase the explanation for clarity, emphasizing the concept of place value and powers of ten, which are key elements of the 5.NBT.A.2 standard."
-      ]
-    },
-    {
-      "standard_id": "5.NBT.A.2",
-      "domain": "Number & Operations in Base Ten",
-      "question_text": "If you multiply 0.5 by 10 to the power of 3, where will the decimal point move?",
-      "options": [
-        {
-          "label": "A",
-          "text": "Three places to the left"
-        },
-        {
-          "label": "B",
-          "text": "Two places to the right"
-        },
-        {
-          "label": "C",
-          "text": "Three places to the right"
-        },
-        {
-          "label": "D",
-          "text": "It stays in the same place"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "When you multiply a decimal by 10 to the power of 3 (or 10^3), you move the decimal point three places to the right. So, 0.5 becomes 500.",
-      "difficulty": "medium",
-      "improvement_suggestions": [
-        "Consider rephrasing the question for enhanced clarity, such as 'What happens to the decimal point in 0.5 when you multiply it by 10^3?' to make it more direct.",
-        "Include a brief reminder or note about the basic concept of moving decimal points when multiplying by powers of 10, to support learners who might be struggling with the concept.",
-        "To improve the quality of distractors, ensure that each option represents a common misconception or error, to better assess understanding and pinpoint student misconceptions."
-      ]
-    },
-    {
-      "standard_id": "5.NBT.A.3.b",
-      "domain": "Number & Operations in Base Ten",
-      "question_text": "Which of the following correctly compares the two decimals 0.456 and 0.465?",
-      "options": [
-        {
-          "label": "A",
-          "text": "0.456 > 0.465"
-        },
-        {
-          "label": "B",
-          "text": "0.456 = 0.465"
-        },
-        {
-          "label": "C",
-          "text": "0.456 < 0.465"
-        },
-        {
-          "label": "D",
-          "text": "The numbers cannot be compared."
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "To compare decimals, we compare their digits from left to right. Both 0.456 and 0.465 have the same digits in the tenths and hundredths places, but in the thousandths place, 6 is greater than 5, making 0.465 greater than 0.456.",
-      "difficulty": "easy",
-      "improvement_suggestions": [
-        "Consider adding a brief explanation for each distractor in the feedback to enhance understanding of common misconceptions.",
-        "Incorporate a question part that asks students to explain their reasoning to deepen their conceptual understanding."
-      ]
-    },
-    {
-      "standard_id": "5.NBT.A.3.b",
-      "domain": "Number & Operations in Base Ten",
-      "question_text": "Jake bought a rope that was 5.786 meters long, and Amy bought a rope that was 5.768 meters long. Whose rope is longer?",
-      "options": [
-        {
-          "label": "A",
-          "text": "Jake's rope is longer."
-        },
-        {
-          "label": "B",
-          "text": "Amy's rope is longer."
-        },
-        {
-          "label": "C",
-          "text": "Both ropes are the same length."
-        },
-        {
-          "label": "D",
-          "text": "It is impossible to determine."
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "By comparing the digits in the thousandths place, we see that Jake's rope is 5.786 meters and Amy's rope is 5.768 meters. Since 8 is greater than 6, Jake's rope is longer.",
-      "difficulty": "medium",
-      "improvement_suggestions": [
-        "Consider adding context or a scenario to make the question more engaging.",
-        "Provide a brief explanation or reminder about comparing decimal numbers to reinforce learning."
-      ]
-    },
-    {
-      "standard_id": "5.NBT.A.4",
-      "domain": "Number & Operations in Base Ten",
-      "question_text": "Jamie measured the length of her new pencil and found it to be 7.65 inches. If she rounds this measurement to the nearest tenth of an inch to report in her science class, what would be her answer?",
-      "options": [
-        {
-          "label": "A",
-          "text": "7.6 inches"
-        },
-        {
-          "label": "B",
-          "text": "7.65 inches"
-        },
-        {
-          "label": "C",
-          "text": "7.7 inches"
-        },
-        {
-          "label": "D",
-          "text": "8.0 inches"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "To round to the nearest tenth, you look at the hundredths place. Since it's a 5, you round up. So, 7.65 rounded to the nearest tenth is 7.7 inches.",
-      "difficulty": "medium",
-      "improvement_suggestions": [
-        "Consider adding a brief explanation in the question prompt or in the options about how rounding works, to reinforce learning and understanding for Grade 5 students.",
-        "To enhance clarity, the question might explicitly state 'round to the nearest tenth of an inch' instead of 'to the nearest tenth' to avoid any potential confusion.",
-        "To improve the quality of distractors, ensure that each option represents a common mistake that could be made when rounding numbers, thus providing a more comprehensive assessment of the student's understanding."
-      ]
-    },
-    {
-      "standard_id": "5.NBT.B.5",
-      "domain": "Number & Operations in Base Ten",
-      "question_text": "What is the product of 123 and 4?",
-      "options": [
-        {
-          "label": "A",
-          "text": "492"
-        },
-        {
-          "label": "B",
-          "text": "482"
-        },
-        {
-          "label": "C",
-          "text": "502"
-        },
-        {
-          "label": "D",
-          "text": "412"
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "To multiply 123 by 4 using the standard algorithm, multiply 4 by each digit of 123, starting from the right. 4 times 3 is 12, carry the 1. 4 times 2 is 8, plus 1 is 9. 4 times 1 is 4. So, 123 times 4 equals 492.",
-      "difficulty": "easy",
-      "improvement_suggestions": [
-        "Consider adding a brief explanation or hint about the standard algorithm for multiplication in the question stem or as a note. This can help reinforce the concept being tested.",
-        "To enhance the quality of distractors, ensure that they represent common mistakes students might make, such as reversing digits or adding instead of multiplying."
-      ]
-    },
-    {
-      "standard_id": "5.NBT.B.5",
-      "domain": "Number & Operations in Base Ten",
-      "question_text": "If you multiply 256 by 7, what is the result?",
-      "options": [
-        {
-          "label": "A",
-          "text": "1792"
-        },
-        {
-          "label": "B",
-          "text": "1582"
-        },
-        {
-          "label": "C",
-          "text": "1892"
-        },
-        {
-          "label": "D",
-          "text": "1682"
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "To find the product of 256 and 7, multiply each digit of 256 by 7. 7 times 6 is 42, carry the 4. 7 times 5 is 35, plus 4 is 39, carry the 3. 7 times 2 is 14, plus 3 is 17. So, 256 times 7 equals 1792.",
-      "difficulty": "medium",
-      "improvement_suggestions": [
-        "Consider adding a brief description or hint about the multiplication process for Grade 5 students, to ensure they understand the method used in the explanation.",
-        "It might be beneficial to include more varied distractors that challenge students to apply their understanding of multiplication, such as including an option that results from a common multiplication mistake."
+        "Consider adding a context to the question to make it more engaging. For example, mention the destination of the field trip.",
+        "To enhance clarity, specify that all buses will be filled to capacity, ensuring there's no ambiguity about partial buses."
       ]
     },
     {
       "standard_id": "5.NBT.B.6",
       "domain": "Number & Operations in Base Ten",
-      "question_text": "A school is organizing its annual sports day and needs to create teams. If there are 1,232 students and each team must have 56 students, how many complete teams can the school form?",
+      "question_text": "Olivia has 2,376 stickers to distribute equally among her 8 friends. How many stickers will each friend get?",
       "options": [
         {
           "label": "A",
-          "text": "22 teams"
+          "text": "297"
         },
         {
           "label": "B",
-          "text": "20 teams"
+          "text": "284"
         },
         {
           "label": "C",
-          "text": "21 teams"
+          "text": "296"
         },
         {
           "label": "D",
-          "text": "23 teams"
+          "text": "305"
         }
       ],
       "correct_answer": "A",
-      "explanation": "To find out how many complete teams can be formed, divide 1,232 by 56. 1,232 \u00f7 56 = 22, so the school can form 22 complete teams.",
+      "explanation": "To find out how many stickers each friend gets, divide the total number of stickers by the number of friends. 2,376 divided by 8 equals 297. Therefore, each friend gets 297 stickers.",
       "difficulty": "medium",
       "improvement_suggestions": [
-        "Consider adding a real-world context to the explanation to enhance understanding, such as comparing it to organizing students into groups for a game.",
-        "To improve clarity and engagement, you might include a visual or interactive element that helps students visualize dividing a large group into teams.",
-        "Review and ensure that the complexity of the division operation is consistent with the expectations for Grade 5 students, as some may find division by two-digit numbers challenging. Providing a step-by-step guide in the explanation could be beneficial."
+        "Consider adding a distractor that results from a common mistake, such as forgetting to carry over a digit, to challenge students to check their work carefully.",
+        "To enhance clarity and engagement, consider adding a brief context or scenario about why Olivia is distributing stickers among her friends."
       ]
     },
     {
       "standard_id": "5.NBT.B.7",
       "domain": "Number & Operations in Base Ten",
-      "question_text": "Jamie bought a pencil for $1.25 and a notebook for $2.50. How much did Jamie spend in total?",
+      "question_text": "Sara has 3.45 meters of ribbon. She cuts off a piece that is 1.78 meters long to use for a project. How much ribbon does she have left?",
       "options": [
         {
           "label": "A",
-          "text": "$3.75"
+          "text": "1.67 meters"
         },
         {
           "label": "B",
-          "text": "$3.50"
+          "text": "1.77 meters"
         },
         {
           "label": "C",
-          "text": "$4.00"
+          "text": "5.23 meters"
         },
         {
           "label": "D",
-          "text": "$3.25"
+          "text": "2.67 meters"
         }
       ],
       "correct_answer": "A",
-      "explanation": "To find the total cost, add the cost of the pencil and the notebook. $1.25 + $2.50 equals $3.75.",
-      "difficulty": "easy",
+      "explanation": "To find out how much ribbon Sara has left, subtract the length of the ribbon she used from the total length she had. 3.45 meters - 1.78 meters equals 1.67 meters. So, the correct answer is 1.67 meters, which is option A.",
+      "difficulty": "medium",
       "improvement_suggestions": [
-        "Consider adding context or real-world relevance to make the question more engaging for students. For example, you could describe a scenario where Jamie is shopping for school supplies."
+        "Consider providing a context or scenario that might make the question more engaging for students. For example, mentioning the type of project Sara is working on could make the problem more relatable.",
+        "To improve clarity, you could rephrase the question slightly for better flow. For instance: 'Sara has a ribbon that is 3.45 meters long. She uses 1.78 meters of it for a project. How much ribbon does she have left?'",
+        "To enhance the quality of distractors, ensure that they are all plausible outcomes of common mistakes that students might make when solving the problem. For example, adding instead of subtracting, or subtracting in the wrong order."
       ]
     },
     {
-      "standard_id": "5.NBT.B.7",
-      "domain": "Number & Operations in Base Ten",
-      "question_text": "If Sarah divides $3.60 equally among 4 friends, how much money does each friend get?",
+      "standard_id": "5.OA.A.1",
+      "domain": "Operations & Algebraic Thinking",
+      "question_text": "What is the value of the expression 3 + (4 \u00d7 5)?",
       "options": [
         {
           "label": "A",
-          "text": "$0.90"
+          "text": "23"
         },
         {
           "label": "B",
-          "text": "$0.80"
+          "text": "35"
         },
         {
           "label": "C",
-          "text": "$1.00"
+          "text": "27"
         },
         {
           "label": "D",
-          "text": "$0.75"
+          "text": "20"
         }
       ],
       "correct_answer": "A",
-      "explanation": "Divide $3.60 by 4 to find out how much each friend gets. $3.60 divided by 4 equals $0.90.",
-      "difficulty": "medium",
+      "explanation": "First, perform the multiplication inside the parentheses: 4 \u00d7 5 = 20. Then, add 3 to the result: 3 + 20 = 23.",
+      "difficulty": "easy",
       "improvement_suggestions": [
-        "Consider adding a context to the question to make it more engaging. For example, you could set the question at a party or a group activity to make the scenario more relatable to Grade 5 students.",
-        "To enhance clarity, you might specify that the question is asking for the amount of money each friend gets in dollars, even though this may be inferred from the context."
+        "Consider adding a brief reminder or note about the order of operations (PEMDAS/BODMAS) to further support learning objectives and reinforce essential math skills.",
+        "To enhance the quality of distractors, you might include an option that reflects a common mistake of adding 3 + 4 before multiplying by 5, which would cater to identifying misconceptions about the order of operations."
       ]
     },
     {
       "standard_id": "5.OA.A.2",
       "domain": "Operations & Algebraic Thinking",
-      "question_text": "Which expression correctly shows how to first subtract 5 from 30 and then divide the result by 5?",
+      "question_text": "Which expression correctly shows the calculation 'subtract 5 from 15, then divide by 2'?",
       "options": [
         {
           "label": "A",
-          "text": "(30 - 5) / 5"
+          "text": "(15 - 5) \u00f7 2"
         },
         {
           "label": "B",
-          "text": "30 - (5 / 5)"
+          "text": "15 \u00f7 2 - 5"
         },
         {
           "label": "C",
-          "text": "5 / (30 - 5)"
+          "text": "(15 \u00f7 2) - 5"
         },
         {
           "label": "D",
-          "text": "(30 / 5) - 5"
+          "text": "15 - (5 \u00f7 2)"
         }
       ],
       "correct_answer": "A",
-      "explanation": "First, we subtract 5 from 30, which is shown as (30 - 5). Then, we divide the result by 5, which is shown as / 5. So, the correct expression is (30 - 5) / 5.",
+      "explanation": "First, you subtract 5 from 15, which gives you 10. Then, you divide that result by 2. So, the correct expression is (15 - 5) \u00f7 2.",
       "difficulty": "easy",
       "improvement_suggestions": [
-        "Consider adding more context or a real-life application to the question to make it more engaging for Grade 5 students.",
-        "Ensure all students are familiar with the terms 'expression' and 'result' as used in the question to avoid any confusion.",
-        "To enhance understanding, it might be helpful to include a brief review of the order of operations in the explanation."
+        "Consider adding a brief explanation for each distractor in the explanation section. This would help educators understand and explain why each incorrect option was wrong, reinforcing learning and understanding of the concept.",
+        "To enhance clarity and engagement, consider rephrasing the question slightly to: 'How would you write an expression for subtracting 5 from 15 and then dividing the result by 2?' This minor adjustment makes the question more direct and active."
       ]
     },
     {
       "standard_id": "5.OA.A.2",
       "domain": "Operations & Algebraic Thinking",
-      "question_text": "If you buy 4 packs of stickers and each pack has 7 stickers, how would you express the total number of stickers?",
+      "question_text": "If you have 3 bags, each with 4 apples and 2 oranges inside, which expression best represents the total number of fruits?",
       "options": [
         {
           "label": "A",
-          "text": "4 + 7"
+          "text": "3 + 4 + 2"
         },
         {
           "label": "B",
-          "text": "7 - 4"
+          "text": "3 \u00d7 (4 + 2)"
         },
         {
           "label": "C",
-          "text": "4 \u00d7 7"
+          "text": "(3 \u00d7 4) + 2"
         },
         {
           "label": "D",
-          "text": "7 / 4"
+          "text": "4 + (2 \u00d7 3)"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "Since you have 4 packs and each pack contains 7 stickers, you multiply the number of packs by the number of stickers in each pack to find the total. Therefore, the expression is 4 \u00d7 7.",
+      "correct_answer": "B",
+      "explanation": "Each bag has 4 apples and 2 oranges, so each bag has 6 fruits. Since there are 3 bags, you multiply the number of fruits in one bag (6) by the number of bags (3). Therefore, the correct expression is 3 \u00d7 (4 + 2).",
       "difficulty": "medium",
       "improvement_suggestions": [
-        "Consider adding a context to the question to make it more engaging. For example, specifying a reason for buying the stickers or what they will be used for could make the problem more relatable.",
-        "To enhance the quality of distractors, consider options that are common mistakes students might make when solving this type of problem. For instance, adding an option that represents adding the numbers instead of multiplying them (which is a common mistake) could be more instructive. Although option A does this, options that reflect other common misconceptions could also be included."
-      ]
-    },
-    {
-      "standard_id": "5.OA.B.3",
-      "domain": "Operations & Algebraic Thinking",
-      "question_text": "Sarah is following two rules to create patterns for her math class. The first rule is 'Add 4' starting from 0, and the second rule is 'Add 8' also starting from 0. What is the relationship between the corresponding terms of the two patterns by the 5th term?",
-      "options": [
-        {
-          "label": "A",
-          "text": "The terms in the second pattern are twice as large as those in the first."
-        },
-        {
-          "label": "B",
-          "text": "The terms in the first pattern are twice as large as those in the second."
-        },
-        {
-          "label": "C",
-          "text": "The terms in the second pattern are four times as large as those in the first."
-        },
-        {
-          "label": "D",
-          "text": "There is no consistent relationship between the terms in the two patterns."
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "Each term in the second pattern (starting from 0 and adding 8 each time) is twice as large as the corresponding term in the first pattern (starting from 0 and adding 4 each time). For example, by the 5th term, the first pattern would be at 20 (0, 4, 8, 12, 16, 20) and the second at 40 (0, 8, 16, 24, 32, 40), where each term in the second pattern is exactly twice the corresponding term in the first pattern.",
-      "difficulty": "easy",
-      "improvement_suggestions": [
-        "Consider adding a brief explanation in the question stem or in the options about how to approach identifying the relationship between the two patterns. This could enhance understanding and provide a small teaching moment within the question itself.",
-        "To increase the question's clarity and engagement, consider including a visual representation of the first few terms of each pattern. This could be particularly helpful for visual learners.",
-        "For the explanation of the correct answer, it might be beneficial to explicitly state that this relationship holds true for all corresponding terms in the patterns, not just by the 5th term, to reinforce the concept of pattern relationships."
-      ]
-    },
-    {
-      "standard_id": "5.OA.B.3",
-      "domain": "Operations & Algebraic Thinking",
-      "question_text": "Alex is creating two numerical patterns for a science project. The first pattern uses the rule 'Multiply by 2' starting from 1, and the second pattern uses the rule 'Multiply by 3' starting from 1. After creating 4 terms for each pattern, Alex plots them as ordered pairs on a coordinate plane. Which of the following represents the 4th ordered pair Alex plots?",
-      "options": [
-        {
-          "label": "A",
-          "text": "(8, 27)"
-        },
-        {
-          "label": "B",
-          "text": "(16, 81)"
-        },
-        {
-          "label": "C",
-          "text": "(8, 12)"
-        },
-        {
-          "label": "D",
-          "text": "(16, 54)"
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "Following the rules, the first pattern's terms are 1 (start), 2 (1x2), 4 (2x2), 8 (4x2), and the second pattern's terms are 1 (start), 3 (1x3), 9 (3x3), 27 (9x3). Therefore, the 4th ordered pair, representing the 4th terms of each pattern, is (8, 27).",
-      "difficulty": "medium",
-      "improvement_suggestions": [
-        "Consider adding a brief explanation or hint about how to create numerical patterns and plot them as ordered pairs for students who might be less familiar with these concepts.",
-        "To enhance clarity and engagement, you might include a visual representation of the coordinate plane with the first few points plotted, especially if this question is part of a digital or interactive assessment.",
-        "It could be beneficial to incorporate a brief review of ordered pairs and how they are plotted on a coordinate plane in the classroom discussion or homework leading up to this assessment, ensuring all students are prepared."
+        "Consider adding a real-life context to the question to make it more engaging. For example, 'If you're packing 3 bags for a picnic, and each bag has 4 apples and 2 oranges, which expression best represents the total number of fruits?'",
+        "To enhance clarity, it might be helpful to explicitly state that the question is asking for the total number of fruits in all bags combined. This can prevent any misunderstanding about whether to calculate the contents of one bag or the combined contents of all bags.",
+        "To improve the quality of distractors, ensure that each wrong answer reflects a common misconception or error that a Grade 5 student might make, such as misunderstanding the distributive property or adding instead of multiplying."
       ]
     },
     {
       "standard_id": "5.NF.B.3",
       "domain": "Number & Operations\u2014Fractions",
-      "question_text": "A bakery has 8 loaves of bread and wants to divide them equally among 5 local shelters. How much bread will each shelter receive?",
+      "question_text": "Samantha had 6 cookies that she wanted to share equally among her 2 friends. How many cookies does each friend get?",
       "options": [
         {
           "label": "A",
-          "text": "1 3/5 loaves"
+          "text": "3 cookies"
         },
         {
           "label": "B",
-          "text": "1 2/5 loaves"
+          "text": "4 cookies"
         },
         {
           "label": "C",
-          "text": "1 1/2 loaves"
+          "text": "2 cookies"
         },
         {
           "label": "D",
-          "text": "1 3/4 loaves"
+          "text": "6 cookies"
         }
       ],
       "correct_answer": "A",
-      "explanation": "Divide the total loaves of bread by the number of shelters to find out how much each shelter gets. 8 loaves \u00f7 5 shelters = 1 3/5 loaves per shelter. This means each shelter receives 1 3/5 loaves of bread.",
-      "difficulty": "medium",
-      "improvement_suggestions": [
-        "Consider varying the distractors more significantly to cover common misconceptions, such as misunderstanding division or fractions.",
-        "It might be helpful to include a brief explanation or hint about how to divide fractions for a more educational question, especially if the question is used in a learning context rather than an assessment context.",
-        "To enhance clarity, it could be specified that the bread cannot be divided into smaller than whole or half loaves, assuming that's relevant to the context of the question."
-      ]
-    },
-    {
-      "standard_id": "5.NF.B.4",
-      "domain": "Number & Operations\u2014Fractions",
-      "question_text": "Sarah wants to make a fruit salad. She uses 1/2 of a pineapple and 3/4 of that half to add to her salad. How much of the pineapple does Sarah use for her salad?",
-      "options": [
-        {
-          "label": "A",
-          "text": "1/4"
-        },
-        {
-          "label": "B",
-          "text": "3/8"
-        },
-        {
-          "label": "C",
-          "text": "1/2"
-        },
-        {
-          "label": "D",
-          "text": "3/4"
-        }
-      ],
-      "correct_answer": "B",
-      "explanation": "To find out how much of the pineapple Sarah uses, multiply 1/2 by 3/4. Multiplying the numerators (1*3) gets 3, and multiplying the denominators (2*4) gets 8, so Sarah uses 3/8 of the pineapple.",
+      "explanation": "Samantha had 6 cookies to share equally among 2 friends, which is the same as dividing 6 by 2. 6 cookies divided by 2 friends is 3 cookies per friend.",
       "difficulty": "easy",
       "improvement_suggestions": [
-        "Consider rephrasing the question for enhanced clarity. For example: 'Sarah makes a fruit salad and uses 1/2 of a pineapple. She then uses 3/4 of that amount in her salad. What fraction of the whole pineapple does she use?'",
-        "Add context or a brief explanation to the explanation section to deepen understanding. For example, mentioning that this problem involves understanding and applying the concept of multiplying fractions could be beneficial."
+        "Consider rephrasing the question for clarity and to directly connect it with fractions, such as 'Samantha had 6 cookies that she wanted to share equally among her 2 friends. What fraction of the cookies does each friend get?' This could help reinforce the connection to the standard 5.NF.B.3, which is about understanding a fraction a/b as the quantity formed by a parts of size 1/b.",
+        "To enhance the quality of distractors, you might include options that are common mistakes when dealing with fractions or division, such as fractions that would result if students misunderstand the division process."
       ]
     },
     {
-      "standard_id": "5.NF.B.4",
+      "standard_id": "5.NF.B.3",
       "domain": "Number & Operations\u2014Fractions",
-      "question_text": "If a recipe requires 3/5 of a cup of sugar and Jamie decides to make 1/2 of the recipe, how much sugar does Jamie need?",
+      "question_text": "A recipe calls for 8 cups of flour to make 4 loaves of bread. How many cups of flour are needed for each loaf of bread?",
       "options": [
         {
           "label": "A",
-          "text": "1/5"
-        },
-        {
-          "label": "B",
-          "text": "1/10"
-        },
-        {
-          "label": "C",
-          "text": "3/10"
-        },
-        {
-          "label": "D",
-          "text": "6/10"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "To find out how much sugar Jamie needs, multiply 3/5 by 1/2. Multiplying the numerators (3*1) gets 3, and multiplying the denominators (5*2) gets 10, so Jamie needs 3/10 of a cup of sugar.",
-      "difficulty": "medium",
-      "improvement_suggestions": [
-        "Consider adding a brief explanation or reminder about how to multiply fractions for students who might be struggling with the concept.",
-        "To enhance understanding, it might be helpful to include a visual representation of the fractions and their multiplication.",
-        "Incorporate a real-world context to the distractors to make the question more engaging and to help students understand why the incorrect options are not viable."
-      ]
-    },
-    {
-      "standard_id": "5.NF.B.4.a",
-      "domain": "Number & Operations\u2014Fractions",
-      "question_text": "Liam had a chocolate bar that he divided into 5 equal parts. He decided to share 3 parts of this chocolate bar with his friends. If each part of the chocolate bar is considered as 1 whole, how much of the chocolate bar did Liam share?",
-      "options": [
-        {
-          "label": "A",
-          "text": "3/5 of the chocolate bar"
-        },
-        {
-          "label": "B",
-          "text": "2/5 of the chocolate bar"
-        },
-        {
-          "label": "C",
-          "text": "5/3 of the chocolate bar"
-        },
-        {
-          "label": "D",
-          "text": "3/2 of the chocolate bar"
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "Liam shared 3 parts out of 5 equal parts of the chocolate bar, which is represented as 3/5. This shows how fractions can represent parts of a whole divided into equal parts.",
-      "difficulty": "easy",
-      "improvement_suggestions": [
-        "Consider rephrasing the question for clarity, such as specifying that 'each part is considered as 1/5 of the whole chocolate bar' to ensure understanding.",
-        "Enhance the explanation by linking the concept directly to the standard, explaining how multiplying fractions by whole numbers is applied in this context."
-      ]
-    },
-    {
-      "standard_id": "5.NF.B.5",
-      "domain": "Number & Operations\u2014Fractions",
-      "question_text": "Samantha has a recipe that calls for 2 cups of sugar. She wants to make a cake that is half the size of the original recipe. How many cups of sugar will she use for the smaller cake?",
-      "options": [
-        {
-          "label": "A",
-          "text": "1 cup"
+          "text": "4 cups"
         },
         {
           "label": "B",
@@ -840,153 +622,245 @@
         },
         {
           "label": "C",
-          "text": "4 cups"
+          "text": "1 cup"
         },
         {
           "label": "D",
-          "text": "0.5 cups"
-        }
-      ],
-      "correct_answer": "A",
-      "explanation": "Since Samantha is making a cake that is half the size of the original recipe, she needs to scale down the amount of sugar by multiplying 2 cups by 1/2. 2 cups x 1/2 = 1 cup.",
-      "difficulty": "easy",
-      "improvement_suggestions": [
-        "Consider adding context or a brief explanation to the options to enhance understanding and engagement. For example, explain why the other quantities (B, C, D) would not be appropriate choices given the scenario.",
-        "To further align with the standard 5.NF.B.5, which involves interpreting multiplication as scaling, it could be beneficial to include a follow-up question that asks students to explain why multiplying by 1/2 results in the quantity being halved, reinforcing the concept of scaling."
-      ]
-    },
-    {
-      "standard_id": "5.NF.B.5",
-      "domain": "Number & Operations\u2014Fractions",
-      "question_text": "A rectangle has a length of 6 units and a width of 4 units. If the dimensions of the rectangle are doubled, what happens to the area of the rectangle?",
-      "options": [
-        {
-          "label": "A",
-          "text": "The area doubles."
-        },
-        {
-          "label": "B",
-          "text": "The area remains the same."
-        },
-        {
-          "label": "C",
-          "text": "The area quadruples."
-        },
-        {
-          "label": "D",
-          "text": "The area increases by half."
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "When the dimensions of the rectangle are doubled, both the length and the width are multiplied by 2. This means the new length is 12 units and the new width is 8 units. The original area is 6 x 4 = 24 units^2. The new area is 12 x 8 = 96 units^2. Thus, the area quadruples, not just doubles.",
-      "difficulty": "medium",
-      "improvement_suggestions": [
-        "Consider adding a brief explanation or reminder about the formula for calculating area in the explanation to reinforce learning.",
-        "To make the question more engaging, you might include a visual diagram of the rectangle before and after the dimensions are doubled."
-      ]
-    },
-    {
-      "standard_id": "5.MD.A.1",
-      "domain": "Measurement & Data",
-      "question_text": "Sarah wants to fill a 2-liter bottle with water using a cup that holds 250 milliliters of water. How many cups of water will Sarah need to fill the bottle?",
-      "options": [
-        {
-          "label": "A",
-          "text": "4 cups"
-        },
-        {
-          "label": "B",
-          "text": "8 cups"
-        },
-        {
-          "label": "C",
-          "text": "6 cups"
-        },
-        {
-          "label": "D",
-          "text": "10 cups"
+          "text": "3 cups"
         }
       ],
       "correct_answer": "B",
-      "explanation": "1 liter is equal to 1000 milliliters. So, 2 liters equal 2000 milliliters. If each cup holds 250 milliliters, then 2000 divided by 250 equals 8. Sarah needs 8 cups of water to fill the bottle.",
+      "explanation": "The recipe calls for 8 cups of flour to make 4 loaves of bread. To find out how many cups of flour are needed for each loaf, divide the total cups of flour (8) by the number of loaves (4), which equals 2 cups of flour per loaf.",
+      "difficulty": "medium",
+      "improvement_suggestions": [
+        "Consider adding a real-world context to the question to make it more engaging. For example, mentioning a specific type of bread or a scenario where the bread is being made could increase student interest.",
+        "To improve the quality of distractors, ensure that all options are plausible outcomes of common mistakes that might be made when solving the problem. For instance, including an option that is the result of adding instead of dividing could test for a common misunderstanding."
+      ]
+    },
+    {
+      "standard_id": "5.NF.B.4",
+      "domain": "Number & Operations\u2014Fractions",
+      "question_text": "Sarah is making a large batch of cookies. She uses 3/4 of a cup of sugar to make a dozen cookies. How much sugar will she use to make 2 dozen cookies?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 1/2 cups"
+        },
+        {
+          "label": "B",
+          "text": "1 1/4 cups"
+        },
+        {
+          "label": "C",
+          "text": "3/2 cups"
+        },
+        {
+          "label": "D",
+          "text": "2 cups"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "To find out how much sugar Sarah will use for 2 dozen cookies, you multiply 3/4 by 2. Multiplying the numerator (3) by 2 gives 6, and keeping the denominator (4) the same gives 6/4, which simplifies to 1 1/2 cups.",
       "difficulty": "easy",
       "improvement_suggestions": [
-        "Consider adding context or a story to make the question more engaging for Grade 5 students.",
-        "Ensure that students have been taught the conversion between liters and milliliters before presenting this question."
+        "Consider adding a brief explanation in the options section that clarifies why each incorrect option is wrong, to enhance learning outcomes.",
+        "To improve clarity and engagement, consider including a context or scenario that relates to students' real-life experiences, making the problem more relatable and engaging."
       ]
     },
     {
       "standard_id": "5.MD.A.1",
       "domain": "Measurement & Data",
-      "question_text": "A runner completes a 5-kilometer race. If she wants to know how many meters she ran, which conversion should she use?",
+      "question_text": "If a recipe calls for 250 milliliters of water, how many liters of water is needed?",
       "options": [
         {
           "label": "A",
-          "text": "5 meters = 0.005 kilometers"
+          "text": "2.5 liters"
         },
         {
           "label": "B",
-          "text": "5 kilometers = 500 meters"
+          "text": "0.25 liters"
         },
         {
           "label": "C",
-          "text": "5 kilometers = 5000 meters"
+          "text": "25 liters"
         },
         {
           "label": "D",
-          "text": "5 kilometers = 50,000 meters"
+          "text": "2500 liters"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "1 kilometer is equal to 1000 meters. Therefore, to convert 5 kilometers to meters, you multiply 5 by 1000, which equals 5000 meters.",
+      "correct_answer": "B",
+      "explanation": "There are 1000 milliliters in a liter. To convert milliliters to liters, you divide by 1000. So, 250 milliliters is 250 / 1000 = 0.25 liters.",
+      "difficulty": "easy",
+      "improvement_suggestions": [
+        "Consider adding a brief explanation about the relationship between milliliters and liters in the question stem to reinforce learning.",
+        "To increase the question's educational value, you might include a follow-up question asking students to convert liters back to milliliters or to convert different units of measurement."
+      ]
+    },
+    {
+      "standard_id": "5.MD.A.1",
+      "domain": "Measurement & Data",
+      "question_text": "A school track is 400 meters long. If a student runs 5 laps around the track, how many kilometers did the student run?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 kilometers"
+        },
+        {
+          "label": "B",
+          "text": "20 kilometers"
+        },
+        {
+          "label": "C",
+          "text": "2000 meters"
+        },
+        {
+          "label": "D",
+          "text": "2.0 kilometers"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "First, multiply the length of one lap (400 meters) by the number of laps (5) to find the total distance run: 400 meters * 5 = 2000 meters. Since there are 1000 meters in a kilometer, convert meters to kilometers by dividing by 1000: 2000 meters / 1000 = 2.0 kilometers.",
       "difficulty": "medium",
       "improvement_suggestions": [
-        "Consider rephrasing the question for enhanced clarity, such as: 'How many meters are equivalent to a 5-kilometer race?' to avoid any potential ambiguity.",
-        "It might be beneficial to include a broader range of distractors that challenge students to think about the conversion factor more critically. For example, an option that suggests multiplying by 10 or 100 could test common misconceptions."
+        "Consider adding a brief reminder or note about the conversion between meters and kilometers to support students who may struggle with metric conversions.",
+        "To increase clarity, specify that the track is a closed loop, ensuring students understand that one lap equates to returning to the starting point."
       ]
     },
     {
       "standard_id": "5.MD.C.3",
       "domain": "Measurement & Data",
-      "question_text": "Samantha is building a rectangular prism with lego blocks. If the length of the prism is 5 blocks, the width is 2 blocks, and the height is 3 blocks, what is the volume of the prism?",
+      "question_text": "Samantha is filling a rectangular tank that is 10cm long, 4cm wide, and 5cm high with water. What is the volume of water the tank can hold?",
       "options": [
         {
           "label": "A",
-          "text": "10 blocks"
+          "text": "20 cubic centimeters"
         },
         {
           "label": "B",
-          "text": "15 blocks"
+          "text": "50 cubic centimeters"
         },
         {
           "label": "C",
-          "text": "30 blocks"
+          "text": "200 cubic centimeters"
         },
         {
           "label": "D",
-          "text": "60 blocks"
+          "text": "19 cubic centimeters"
         }
       ],
       "correct_answer": "C",
-      "explanation": "The volume of a rectangular prism is found by multiplying its length, width, and height together. So, 5 blocks (length) * 2 blocks (width) * 3 blocks (height) = 30 blocks. Therefore, the volume of the prism is 30 blocks.",
+      "explanation": "Volume is calculated by multiplying the length, width, and height of an object. For Samantha's tank, that's 10cm * 4cm * 5cm = 200 cubic centimeters.",
       "difficulty": "easy",
       "improvement_suggestions": [
-        "Consider adding units of measurement (e.g., 'cubic blocks') to the correct answer and question to reinforce understanding of volume measurement.",
-        "Enhance clarity by specifying that the blocks are all of the same size, ensuring the question's assumptions are clear to all students."
+        "Consider adding a real-world context or application to make the question more engaging and meaningful for students.",
+        "You might want to include units in the question stem for 'volume' to reinforce the concept of volume measurement (e.g., 'What is the volume of water the tank can hold in cubic centimeters?').",
+        "To enhance the quality of distractors, ensure that the incorrect options are derived from common misconceptions or calculation errors (e.g., adding instead of multiplying dimensions, or only multiplying two dimensions)."
       ]
     },
     {
-      "standard_id": "5.MD.C.4",
+      "standard_id": "5.MD.C.3",
       "domain": "Measurement & Data",
-      "question_text": "Samantha is building a small rectangular prism model using cubic cm blocks. The base area of her model is 12 cm\u00b2, and she stacks the blocks 3 cm high. How many cubic cm blocks did she use?",
+      "question_text": "A cube has a volume of 125 cubic units. What is the length of one side of the cube?",
       "options": [
         {
           "label": "A",
-          "text": "15"
+          "text": "5 units"
         },
         {
           "label": "B",
-          "text": "36"
+          "text": "25 units"
+        },
+        {
+          "label": "C",
+          "text": "625 units"
+        },
+        {
+          "label": "D",
+          "text": "15 units"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "The volume of a cube is found by cubing the length of one side. To find the side length from the volume, take the cube root of the volume. The cube root of 125 is 5, so each side of the cube is 5 units long.",
+      "difficulty": "medium",
+      "improvement_suggestions": [
+        "Consider adding a brief explanation in the question stem or as a note that the volume of a cube is calculated as the cube of the side length. This could provide a hint and reinforce learning.",
+        "To increase the quality of distractors, consider choosing numbers that are more closely related to common mistakes students might make, such as squaring instead of cubing (e.g., include an option for the square root of 125).",
+        "Ensure that the explanation clearly ties back to the standard by explicitly mentioning how this problem relates to understanding and applying volume measurements."
+      ]
+    },
+    {
+      "standard_id": "5.MD.C.3.a",
+      "domain": "Measurement & Data",
+      "question_text": "If you have a box that is 3 units long, 3 units wide, and 3 units high, how many unit cubes will fit inside it?",
+      "options": [
+        {
+          "label": "A",
+          "text": "9 cubic units"
+        },
+        {
+          "label": "B",
+          "text": "27 cubic units"
+        },
+        {
+          "label": "C",
+          "text": "3 cubic units"
+        },
+        {
+          "label": "D",
+          "text": "18 cubic units"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "To find the volume, you multiply the length by the width by the height. So, 3 units * 3 units * 3 units = 27 cubic units. Each cubic unit represents a space that a 1x1x1 unit cube can fit.",
+      "difficulty": "easy",
+      "improvement_suggestions": [
+        "Consider adding units of measure (e.g., centimeters, meters) to make the question more relatable and to provide practice with standard units of measure, which is also a part of the curriculum.",
+        "Enhance clarity by specifying that the box is a cube by mentioning 'a cubic box' or 'a cube', which may help students visualize the problem better."
+      ]
+    },
+    {
+      "standard_id": "5.MD.C.3.a",
+      "domain": "Measurement & Data",
+      "question_text": "Sarah is building a model using unit cubes. She uses 4 layers of unit cubes, with each layer containing 6 cubes in a row and 2 cubes in a column. How many unit cubes did Sarah use in total?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12 cubes"
+        },
+        {
+          "label": "B",
+          "text": "24 cubes"
+        },
+        {
+          "label": "C",
+          "text": "48 cubes"
+        },
+        {
+          "label": "D",
+          "text": "96 cubes"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "To find the total number of unit cubes, multiply the number of cubes in a layer by the number of layers. Each layer has 6 cubes in a row times 2 cubes in a column, which equals 12 cubes per layer. With 4 layers, the total is 4 layers * 12 cubes = 48 cubes.",
+      "difficulty": "medium",
+      "improvement_suggestions": [
+        "Consider rephrasing the question for clarity, such as specifying that the unit cubes are arranged in a rectangular prism or specifying dimensions more clearly to avoid any potential confusion.",
+        "Add more context or a real-world application to the question to increase engagement and understanding of practical use."
+      ]
+    },
+    {
+      "standard_id": "5.MD.C.3.b",
+      "domain": "Measurement & Data",
+      "question_text": "Sarah wants to fill a rectangular box that is 2 units long, 3 units wide, and 4 units high with unit cubes. How many unit cubes will she need to fill the box without any gaps or overlaps?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "24"
         },
         {
           "label": "C",
@@ -994,46 +868,136 @@
         },
         {
           "label": "D",
-          "text": "45"
+          "text": "6"
         }
       ],
       "correct_answer": "B",
-      "explanation": "To find the volume of Samantha's model, multiply the base area (12 cm\u00b2) by the height (3 cm). 12 cm\u00b2 * 3 cm = 36 cubic cm. So, she used 36 cubic cm blocks.",
+      "explanation": "To find the volume in cubic units, you multiply the length by the width by the height. So, 2 units * 3 units * 4 units = 24 cubic units. Therefore, Sarah will need 24 unit cubes to fill the box.",
       "difficulty": "easy",
       "improvement_suggestions": [
-        "Consider adding a brief explanation or hint about how to calculate the volume of a rectangular prism to make the question more educational.",
-        "To enhance clarity, specify that 'cubic cm blocks' refers to blocks that are 1 cubic cm in size, as this might not be immediately clear to all students."
+        "Consider providing units for the options to reinforce the concept of volume being measured in cubic units (e.g., '24 cubic units' instead of just '24').",
+        "You might want to include more challenging distractors that result from common miscalculations (e.g., adding the dimensions instead of multiplying them) to better assess understanding."
+      ]
+    },
+    {
+      "standard_id": "5.MD.C.3.b",
+      "domain": "Measurement & Data",
+      "question_text": "A cube-shaped tank holds 125 gallons of water. Each side of the tank is divided into equal unit cubes. How long is each side of the tank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5 units"
+        },
+        {
+          "label": "B",
+          "text": "25 units"
+        },
+        {
+          "label": "C",
+          "text": "50 units"
+        },
+        {
+          "label": "D",
+          "text": "125 units"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Since the volume of the tank is 125 cubic units and it is cube-shaped, each side of the tank must be the cube root of 125. The cube root of 125 is 5, so each side of the tank is 5 units long.",
+      "difficulty": "medium",
+      "improvement_suggestions": [
+        "Consider adding a brief explanation or hint about cube roots in the question or explanation to reinforce the concept, as this could enhance understanding for Grade 5 students not yet familiar with cube roots.",
+        "To increase the question's educational value, you might add a follow-up question asking for the volume of one of the unit cubes or how many unit cubes make up the tank."
+      ]
+    },
+    {
+      "standard_id": "5.MD.C.4",
+      "domain": "Measurement & Data",
+      "question_text": "A cube has a volume of 27 cubic centimeters. How long is each side of the cube?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 centimeters"
+        },
+        {
+          "label": "B",
+          "text": "9 centimeters"
+        },
+        {
+          "label": "C",
+          "text": "27 centimeters"
+        },
+        {
+          "label": "D",
+          "text": "81 centimeters"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Since the volume of a cube is found by cubing the length of one side (s^3), and the volume is 27 cubic centimeters, the side length is the cube root of 27, which is 3 centimeters.",
+      "difficulty": "medium",
+      "improvement_suggestions": [
+        "Consider adding a brief explanation or formula for volume in the question stem or explanation to reinforce the concept for Grade 5 students.",
+        "To enhance clarity, you might specify that you are asking for the length of one side of the cube, as some students might misunderstand and think about dimensions other than length."
       ]
     },
     {
       "standard_id": "5.MD.C.5",
       "domain": "Measurement & Data",
-      "question_text": "Sarah is building a cube-shaped garden box. She knows the volume of the garden box needs to be 64 cubic feet to have enough space for all her plants. What is the length of each side of the garden box?",
+      "question_text": "A rectangular prism has a length of 5 inches, a width of 4 inches, and a height of 3 inches. What is the volume of the prism?",
       "options": [
         {
           "label": "A",
-          "text": "4 feet"
+          "text": "12 cubic inches"
         },
         {
           "label": "B",
-          "text": "8 feet"
+          "text": "20 cubic inches"
         },
         {
           "label": "C",
-          "text": "16 feet"
+          "text": "60 cubic inches"
         },
         {
           "label": "D",
-          "text": "32 feet"
+          "text": "15 cubic inches"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "The volume of a cube is found by cubing the length of one of its sides. Since the volume is 64 cubic feet, you find the cube root of 64, which is 4. Therefore, each side of the garden box is 4 feet long.",
+      "correct_answer": "C",
+      "explanation": "The volume of a rectangular prism is found by multiplying its length, width, and height together. So, 5 inches * 4 inches * 3 inches = 60 cubic inches.",
+      "difficulty": "easy",
+      "improvement_suggestions": [
+        "Consider adding a real-world context to the question to make it more engaging for students. For example, you could frame the question around packing a box.",
+        "To improve clarity and ensure understanding, you might include a diagram of the rectangular prism with its dimensions labeled."
+      ]
+    },
+    {
+      "standard_id": "5.MD.C.5",
+      "domain": "Measurement & Data",
+      "question_text": "Samantha is building a small rectangular box to store her pencils. The box is 8 cm long, 3 cm wide, and 2 cm high. She decides to build another box that is twice as long, twice as wide, and the same height. What will be the volume of the new box?",
+      "options": [
+        {
+          "label": "A",
+          "text": "48 cubic cm"
+        },
+        {
+          "label": "B",
+          "text": "96 cubic cm"
+        },
+        {
+          "label": "C",
+          "text": "144 cubic cm"
+        },
+        {
+          "label": "D",
+          "text": "24 cubic cm"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The volume of the original box is 8 cm * 3 cm * 2 cm = 48 cubic cm. The new box dimensions will be 16 cm * 6 cm * 2 cm. So, the volume of the new box is 16 cm * 6 cm * 2 cm = 96 cubic cm. Doubling the length and width but keeping the height the same quadruples the volume.",
       "difficulty": "medium",
       "improvement_suggestions": [
-        "Consider including a brief explanation or hint on how to calculate the volume of a cube, to make the question more educational and supportive of learning.",
-        "To enhance clarity, you might specify that the garden box has equal sides, as the term 'cube-shaped' might not be immediately clear to all students.",
-        "To improve the quality of distractors, ensure that the incorrect options (B, C, D) are based on common misconceptions or calculation errors related to the concept of volume, such as squaring instead of cubing, to enhance the learning experience."
+        "Consider adding a brief explanation in the question or in the options about how volume is calculated (length x width x height) to reinforce learning and ensure clarity.",
+        "To enhance clarity and reinforce learning, consider rephrasing the explanation to explicitly state that when the length and width are doubled, the area of the base is quadrupled, and since the height remains the same, the volume is also quadrupled. This helps explain why the volume is not simply doubled.",
+        "For an additional challenge and to test understanding further, consider including a follow-up question asking students to calculate the volume if the height were also doubled."
       ]
     }
   ]
