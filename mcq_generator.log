@@ -1,0 +1,725 @@
+2025-03-01 13:36:47,011 - INFO - Attempting to run pipeline with web scraping
+2025-03-01 13:36:47,012 - INFO - Attempting to fetch standards from the web
+2025-03-01 13:36:47,012 - INFO - ====== WebDriver manager ======
+2025-03-01 13:36:49,725 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-01 13:36:50,312 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-01 13:36:50,509 - INFO - There is no [win64] chromedriver "132.0.6834.159" for browser google-chrome "132.0.6834" in cache
+2025-03-01 13:36:50,510 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-01 13:36:51,232 - INFO - WebDriver version 132.0.6834.159 selected
+2025-03-01 13:36:51,238 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-03-01 13:36:51,241 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-03-01 13:36:51,687 - INFO - Driver downloading response is 200
+2025-03-01 13:36:56,958 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-01 13:36:57,420 - INFO - Driver has been saved in cache [C:\Users\B_S_OkoliPC\.wdm\drivers\chromedriver\win64\132.0.6834.159]
+2025-03-01 13:37:00,638 - INFO - Attempting to fetch content from https://www.thecorestandards.org/Math/Content/5/
+2025-03-01 13:37:12,227 - INFO - Successfully fetched content from https://www.thecorestandards.org/Math/Content/5/
+2025-03-01 13:37:18,490 - INFO - Page title: Grade 5			| Common Core State Standards Initiative
+2025-03-01 13:37:18,508 - INFO - Initial extraction yielded few results, trying pattern-based approach
+2025-03-01 13:37:18,515 - INFO - Found 0 text elements with standard ID patterns
+2025-03-01 13:37:18,515 - WARNING - BeautifulSoup parsing didn't extract enough standards, falling back to LLM
+2025-03-01 13:47:19,830 - INFO - Retrying request to /chat/completions in 0.474584 seconds
+2025-03-01 13:57:20,711 - INFO - Retrying request to /chat/completions in 0.918958 seconds
+2025-03-01 13:58:00,487 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 13:58:00,965 - INFO - Extracted 27 standards across 5 domains using LLM
+2025-03-01 13:58:00,989 - INFO - Got 27 standards
+2025-03-01 13:58:00,991 - INFO - Generating MCQs for domain: Geometry (4 standards)
+2025-03-01 13:58:00,991 - INFO - Generating questions for 5.G.A.1
+2025-03-01 13:58:14,135 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 13:58:14,149 - INFO - Generated 2 MCQs for 5.G.A.1
+2025-03-01 13:58:14,151 - INFO - Generating questions for 5.G.A.2
+2025-03-01 13:58:30,452 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 13:58:30,461 - INFO - Generated 2 MCQs for 5.G.A.2
+2025-03-01 13:58:30,461 - INFO - Generating questions for 5.G.B.3
+2025-03-01 13:58:43,573 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 13:58:43,578 - INFO - Generated 2 MCQs for 5.G.B.3
+2025-03-01 13:58:43,578 - INFO - Generating questions for 5.G.B.4
+2025-03-01 13:58:58,716 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 13:58:58,746 - INFO - Generated 2 MCQs for 5.G.B.4
+2025-03-01 13:58:58,747 - INFO - Generating MCQs for domain: Number & Operations in Base Ten (9 standards)
+2025-03-01 13:58:58,747 - INFO - Generating questions for 5.NBT.A.1
+2025-03-01 13:59:13,195 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 13:59:13,198 - INFO - Generated 2 MCQs for 5.NBT.A.1
+2025-03-01 13:59:13,198 - INFO - Generating questions for 5.NBT.A.2
+2025-03-01 13:59:27,194 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 13:59:27,344 - INFO - Generated 2 MCQs for 5.NBT.A.2
+2025-03-01 13:59:27,344 - INFO - Generating questions for 5.NBT.A.3
+2025-03-01 13:59:42,484 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 13:59:43,065 - INFO - Generated 2 MCQs for 5.NBT.A.3
+2025-03-01 13:59:43,066 - INFO - Generating questions for 5.NBT.A.3.a
+2025-03-01 14:00:01,145 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:00:01,149 - INFO - Generated 2 MCQs for 5.NBT.A.3.a
+2025-03-01 14:00:01,149 - INFO - Generating questions for 5.NBT.A.3.b
+2025-03-01 14:00:18,204 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:00:18,205 - INFO - Generated 2 MCQs for 5.NBT.A.3.b
+2025-03-01 14:00:18,205 - INFO - Generating questions for 5.NBT.A.4
+2025-03-01 14:00:34,531 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:00:34,535 - INFO - Generated 2 MCQs for 5.NBT.A.4
+2025-03-01 14:00:34,535 - INFO - Generating questions for 5.NBT.B.5
+2025-03-01 14:00:48,754 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:00:48,758 - INFO - Generated 2 MCQs for 5.NBT.B.5
+2025-03-01 14:00:48,758 - INFO - Generating questions for 5.NBT.B.6
+2025-03-01 14:01:03,063 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:01:03,067 - INFO - Generated 2 MCQs for 5.NBT.B.6
+2025-03-01 14:01:03,067 - INFO - Generating questions for 5.NBT.B.7
+2025-03-01 14:01:16,743 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:01:16,745 - INFO - Generated 2 MCQs for 5.NBT.B.7
+2025-03-01 14:01:16,746 - INFO - Generating MCQs for domain: Operations & Algebraic Thinking (3 standards)
+2025-03-01 14:01:16,746 - INFO - Generating questions for 5.OA.A.1
+2025-03-01 14:01:32,601 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:01:32,602 - INFO - Generated 2 MCQs for 5.OA.A.1
+2025-03-01 14:01:32,602 - INFO - Generating questions for 5.OA.A.2
+2025-03-01 14:01:47,140 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:01:47,142 - INFO - Generated 2 MCQs for 5.OA.A.2
+2025-03-01 14:01:47,142 - INFO - Generating questions for 5.OA.B.3
+2025-03-01 14:02:10,072 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:02:10,075 - INFO - Generated 2 MCQs for 5.OA.B.3
+2025-03-01 14:02:10,075 - INFO - Generating MCQs for domain: Number & Operations—Fractions (7 standards)
+2025-03-01 14:02:10,078 - INFO - Generating questions for 5.NF.A.1
+2025-03-01 14:02:28,010 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:02:28,012 - INFO - Generated 2 MCQs for 5.NF.A.1
+2025-03-01 14:02:28,012 - INFO - Generating questions for 5.NF.A.2
+2025-03-01 14:02:45,541 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:02:45,693 - INFO - Generated 2 MCQs for 5.NF.A.2
+2025-03-01 14:02:45,693 - INFO - Generating questions for 5.NF.B.3
+2025-03-01 14:03:02,520 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:03:02,526 - INFO - Generated 2 MCQs for 5.NF.B.3
+2025-03-01 14:03:02,527 - INFO - Generating questions for 5.NF.B.4
+2025-03-01 14:03:19,368 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:03:19,369 - INFO - Generated 2 MCQs for 5.NF.B.4
+2025-03-01 14:03:19,370 - INFO - Generating questions for 5.NF.B.4.a
+2025-03-01 14:03:37,771 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:03:37,776 - INFO - Generated 2 MCQs for 5.NF.B.4.a
+2025-03-01 14:03:37,777 - INFO - Generating questions for 5.NF.B.4.b
+2025-03-01 14:03:57,085 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:03:57,089 - INFO - Generated 2 MCQs for 5.NF.B.4.b
+2025-03-01 14:03:57,090 - INFO - Generating questions for 5.NF.B.5
+2025-03-01 14:04:13,292 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:04:13,294 - INFO - Generated 2 MCQs for 5.NF.B.5
+2025-03-01 14:04:13,294 - INFO - Generating MCQs for domain: Measurement & Data (4 standards)
+2025-03-01 14:04:13,294 - INFO - Generating questions for 5.MD.A.1
+2025-03-01 14:04:29,994 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:04:29,996 - INFO - Generated 2 MCQs for 5.MD.A.1
+2025-03-01 14:04:29,996 - INFO - Generating questions for 5.MD.C.3
+2025-03-01 14:04:47,989 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:04:48,591 - INFO - Generated 2 MCQs for 5.MD.C.3
+2025-03-01 14:04:48,591 - INFO - Generating questions for 5.MD.C.4
+2025-03-01 14:05:05,459 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:05:05,467 - INFO - Generated 2 MCQs for 5.MD.C.4
+2025-03-01 14:05:05,467 - INFO - Generating questions for 5.MD.C.5
+2025-03-01 14:05:22,347 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:05:22,351 - INFO - Generated 2 MCQs for 5.MD.C.5
+2025-03-01 14:05:22,352 - INFO - Validating 54 MCQs
+2025-03-01 14:05:28,559 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:05:29,043 - INFO - MCQ 5.G.A.1 valid with suggestions: ['Consider adding a brief explanation or reminder about coordinate systems before the question to reinforce understanding.', "To increase the question's educational value, consider providing a brief explanation for why the other options are incorrect in the feedback to students.", 'Enhance the scenario to include a reason for why understanding directions on a coordinate plane is useful, linking it to real-life applications.']
+2025-03-01 14:05:33,686 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:05:33,829 - INFO - MCQ 5.G.A.1 valid with suggestions: ['Consider adding a brief explanation or reminder about how coordinates work, to make the question more educational and self-contained.', "To enhance clarity and engagement, consider adding a simple diagram of the coordinate plane with the origin and the treasure's location marked. This visual aid could help students better visualize the path they need to describe.", 'For a more comprehensive assessment, you could include a follow-up question asking students to describe the path from the treasure back to the origin, reinforcing their understanding of positive and negative coordinates.']
+2025-03-01 14:05:39,486 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:05:39,500 - INFO - MCQ 5.G.A.2 valid with suggestions: ['Consider adding a brief explanation or reminder about how to read coordinates on a graph for Grade 5 students to reinforce learning and understanding.', 'It could be beneficial to include a visual representation of the coordinate plane with this question to enhance comprehension and engagement.', 'To ensure clarity, it might be helpful to explicitly state that the month of January corresponds to the number 1 on the x-axis, for those who may not immediately make that connection.']
+2025-03-01 14:05:44,886 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:05:44,887 - INFO - MCQ 5.G.A.2 valid with suggestions: ['Consider adding a visual representation of the coordinate plane with the point (8, 4) marked. This could help students better visualize the question and understand coordinate planes.', 'Include a brief reminder or explanation of how to read coordinates on a graph, ensuring clarity for all students, especially those who may need a quick refresher.', "To enhance the quality of distractors, you could add an option that mixes up the order of steps (e.g., '4 steps north and 8 steps east'), testing if students understand the importance of the order in coordinates."]
+2025-03-01 14:05:48,615 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:05:48,617 - INFO - MCQ 5.G.B.3 valid with suggestions: ['Consider adding a brief definition or example of a parallelogram in the explanation to enhance understanding, especially for visual learners.', 'To improve clarity and engagement, include diagrams of parallelograms and non-parallelograms with the question. This visual aid can help students better grasp the concept of parallel and equal-length opposite sides.']
+2025-03-01 14:05:54,206 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:05:54,210 - INFO - MCQ 5.G.B.3 valid with suggestions: ['To enhance clarity and engagement, consider adding a visual component to the question, such as showing different shapes and asking students to identify the rectangle based on its attributes.', "To improve the quality of distractors, option B could be revised to be less obviously incorrect since rectangles can have acute angles only if they are considered in the context of broader geometric figures, which might confuse some students. A better distractor might focus on common misconceptions about rectangles, such as 'All sides must be the same length,' which confuses squares with rectangles."]
+2025-03-01 14:05:59,119 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:05:59,121 - INFO - MCQ 5.G.B.4 valid with suggestions: ["Consider rephrasing Option A to specify 'without specifying the angle types' for clarity, as the absence of right angles is a critical point.", "For Option B, it might be clearer to state 'with two pairs of adjacent sides of equal length' to emphasize the rectangle's characteristics without implying that it could be any other quadrilateral.", 'Option D could be omitted or replaced with another quadrilateral option that might be more commonly confused with rectangles or squares, such as a parallelogram or rhombus, to enhance the quality of distractors.']
+2025-03-01 14:06:02,251 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:06:02,256 - INFO - MCQ 5.G.B.4 valid with suggestions: ['Consider adding a visual component to the question to enhance understanding for visual learners.', 'Include an option that explicitly states the figure does not necessarily need to have sides of equal length to avoid confusion with a rhombus, enhancing the quality of distractors.']
+2025-03-01 14:06:06,970 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:06:06,975 - INFO - MCQ 5.NBT.A.1 valid with suggestions: ['Consider adding a brief explanation why each incorrect option is not the right choice in the explanation section. This would provide a more comprehensive understanding for students reviewing the question and answer.', 'To enhance clarity, it might be helpful to explicitly state or remind students that in a multi-digit number, each digit is ten times the value of the digit to its right. This reinforces the concept being tested.']
+2025-03-01 14:06:16,638 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:06:16,649 - WARNING - MCQ 5.NBT.A.1 failed validation: ['The explanation and correct answer do not align with the basic principles of place value.', 'Incorrect application of the concept that a digit in the tens place is 10 times the value of the digit in the ones place.']
+2025-03-01 14:06:20,170 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:06:20,171 - INFO - MCQ 5.NBT.A.2 valid with suggestions: ['Consider adding context or a real-life application to the question to enhance engagement and understanding.', 'Rephrase the explanation for clarity, emphasizing the concept of place value and powers of ten, which are key elements of the 5.NBT.A.2 standard.']
+2025-03-01 14:06:25,548 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:06:25,550 - INFO - MCQ 5.NBT.A.2 valid with suggestions: ["Consider rephrasing the question for enhanced clarity, such as 'What happens to the decimal point in 0.5 when you multiply it by 10^3?' to make it more direct.", 'Include a brief reminder or note about the basic concept of moving decimal points when multiplying by powers of 10, to support learners who might be struggling with the concept.', 'To improve the quality of distractors, ensure that each option represents a common misconception or error, to better assess understanding and pinpoint student misconceptions.']
+2025-03-01 14:06:29,399 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:06:29,437 - WARNING - MCQ 5.NBT.A.3 failed validation: ['Incorrect explanation and determination of the smallest decimal']
+2025-03-01 14:06:35,227 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:06:35,230 - WARNING - MCQ 5.NBT.A.3 failed validation: ['Incorrect explanation for the correct answer', 'Misalignment with the cited standard']
+2025-03-01 14:06:41,593 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:06:41,602 - WARNING - MCQ 5.NBT.A.3.a failed validation: ['The marked correct answer is incorrect.']
+2025-03-01 14:06:46,954 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:06:46,968 - WARNING - MCQ 5.NBT.A.3.a failed validation: ['Misleading distractor', 'Incorrect option marked as correct']
+2025-03-01 14:06:51,428 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:06:51,430 - INFO - MCQ 5.NBT.A.3.b valid with suggestions: ['Consider adding a brief explanation for each distractor in the feedback to enhance understanding of common misconceptions.', 'Incorporate a question part that asks students to explain their reasoning to deepen their conceptual understanding.']
+2025-03-01 14:06:53,909 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:06:53,911 - INFO - MCQ 5.NBT.A.3.b valid with suggestions: ['Consider adding context or a scenario to make the question more engaging.', 'Provide a brief explanation or reminder about comparing decimal numbers to reinforce learning.']
+2025-03-01 14:06:58,855 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:06:58,856 - WARNING - MCQ 5.NBT.A.4 failed validation: ['Explanation inconsistency', 'Misleading explanation']
+2025-03-01 14:07:03,760 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:07:03,763 - INFO - MCQ 5.NBT.A.4 valid with suggestions: ['Consider adding a brief explanation in the question prompt or in the options about how rounding works, to reinforce learning and understanding for Grade 5 students.', "To enhance clarity, the question might explicitly state 'round to the nearest tenth of an inch' instead of 'to the nearest tenth' to avoid any potential confusion.", "To improve the quality of distractors, ensure that each option represents a common mistake that could be made when rounding numbers, thus providing a more comprehensive assessment of the student's understanding."]
+2025-03-01 14:07:08,064 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:07:08,073 - INFO - MCQ 5.NBT.B.5 valid with suggestions: ['Consider adding a brief explanation or hint about the standard algorithm for multiplication in the question stem or as a note. This can help reinforce the concept being tested.', 'To enhance the quality of distractors, ensure that they represent common mistakes students might make, such as reversing digits or adding instead of multiplying.']
+2025-03-01 14:07:12,813 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:07:12,815 - INFO - MCQ 5.NBT.B.5 valid with suggestions: ['Consider adding a brief description or hint about the multiplication process for Grade 5 students, to ensure they understand the method used in the explanation.', 'It might be beneficial to include more varied distractors that challenge students to apply their understanding of multiplication, such as including an option that results from a common multiplication mistake.']
+2025-03-01 14:07:17,835 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:07:17,836 - WARNING - MCQ 5.NBT.B.6 failed validation: ['Incorrect marked answer']
+2025-03-01 14:07:23,665 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:07:23,693 - INFO - MCQ 5.NBT.B.6 valid with suggestions: ['Consider adding a real-world context to the explanation to enhance understanding, such as comparing it to organizing students into groups for a game.', 'To improve clarity and engagement, you might include a visual or interactive element that helps students visualize dividing a large group into teams.', 'Review and ensure that the complexity of the division operation is consistent with the expectations for Grade 5 students, as some may find division by two-digit numbers challenging. Providing a step-by-step guide in the explanation could be beneficial.']
+2025-03-01 14:07:26,563 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:07:27,010 - INFO - MCQ 5.NBT.B.7 valid with suggestions: ['Consider adding context or real-world relevance to make the question more engaging for students. For example, you could describe a scenario where Jamie is shopping for school supplies.']
+2025-03-01 14:07:34,734 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:07:34,735 - INFO - MCQ 5.NBT.B.7 valid with suggestions: ['Consider adding a context to the question to make it more engaging. For example, you could set the question at a party or a group activity to make the scenario more relatable to Grade 5 students.', 'To enhance clarity, you might specify that the question is asking for the amount of money each friend gets in dollars, even though this may be inferred from the context.']
+2025-03-01 14:07:37,969 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:07:37,971 - WARNING - MCQ 5.OA.A.1 failed validation: ['The marked correct answer is incorrect based on the given explanation and calculation.']
+2025-03-01 14:07:40,856 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:07:40,857 - WARNING - MCQ 5.OA.A.1 failed validation: ['Incorrect marked answer']
+2025-03-01 14:07:46,234 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:07:46,238 - INFO - MCQ 5.OA.A.2 valid with suggestions: ['Consider adding more context or a real-life application to the question to make it more engaging for Grade 5 students.', "Ensure all students are familiar with the terms 'expression' and 'result' as used in the question to avoid any confusion.", 'To enhance understanding, it might be helpful to include a brief review of the order of operations in the explanation.']
+2025-03-01 14:07:52,034 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:07:52,036 - INFO - MCQ 5.OA.A.2 valid with suggestions: ['Consider adding a context to the question to make it more engaging. For example, specifying a reason for buying the stickers or what they will be used for could make the problem more relatable.', 'To enhance the quality of distractors, consider options that are common mistakes students might make when solving this type of problem. For instance, adding an option that represents adding the numbers instead of multiplying them (which is a common mistake) could be more instructive. Although option A does this, options that reflect other common misconceptions could also be included.']
+2025-03-01 14:07:58,613 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:07:59,029 - INFO - MCQ 5.OA.B.3 valid with suggestions: ['Consider adding a brief explanation in the question stem or in the options about how to approach identifying the relationship between the two patterns. This could enhance understanding and provide a small teaching moment within the question itself.', "To increase the question's clarity and engagement, consider including a visual representation of the first few terms of each pattern. This could be particularly helpful for visual learners.", 'For the explanation of the correct answer, it might be beneficial to explicitly state that this relationship holds true for all corresponding terms in the patterns, not just by the 5th term, to reinforce the concept of pattern relationships.']
+2025-03-01 14:08:04,341 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:08:04,350 - INFO - MCQ 5.OA.B.3 valid with suggestions: ['Consider adding a brief explanation or hint about how to create numerical patterns and plot them as ordered pairs for students who might be less familiar with these concepts.', 'To enhance clarity and engagement, you might include a visual representation of the coordinate plane with the first few points plotted, especially if this question is part of a digital or interactive assessment.', 'It could be beneficial to incorporate a brief review of ordered pairs and how they are plotted on a coordinate plane in the classroom discussion or homework leading up to this assessment, ensuring all students are prepared.']
+2025-03-01 14:08:07,860 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:08:07,864 - WARNING - MCQ 5.NF.A.1 failed validation: ['Incorrect marked answer']
+2025-03-01 14:08:11,714 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:08:11,715 - WARNING - MCQ 5.NF.A.1 failed validation: ['Incorrect marked answer', 'Explanation math error']
+2025-03-01 14:08:15,428 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:08:15,430 - WARNING - MCQ 5.NF.A.2 failed validation: ['Incorrect calculation in explanation', 'Incorrect marked correct answer']
+2025-03-01 14:08:20,653 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:08:20,654 - WARNING - MCQ 5.NF.A.2 failed validation: ['The marked correct answer is incorrect.', 'Explanation provided does not match the correct calculation process.']
+2025-03-01 14:08:27,314 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:08:27,325 - WARNING - MCQ 5.NF.B.3 failed validation: ['Incorrect calculation for the division of chocolate bars.', 'Misalignment with the cited standard.']
+2025-03-01 14:08:32,852 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:08:32,881 - INFO - MCQ 5.NF.B.3 valid with suggestions: ['Consider varying the distractors more significantly to cover common misconceptions, such as misunderstanding division or fractions.', 'It might be helpful to include a brief explanation or hint about how to divide fractions for a more educational question, especially if the question is used in a learning context rather than an assessment context.', "To enhance clarity, it could be specified that the bread cannot be divided into smaller than whole or half loaves, assuming that's relevant to the context of the question."]
+2025-03-01 14:08:38,612 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:08:38,614 - INFO - MCQ 5.NF.B.4 valid with suggestions: ["Consider rephrasing the question for enhanced clarity. For example: 'Sarah makes a fruit salad and uses 1/2 of a pineapple. She then uses 3/4 of that amount in her salad. What fraction of the whole pineapple does she use?'", 'Add context or a brief explanation to the explanation section to deepen understanding. For example, mentioning that this problem involves understanding and applying the concept of multiplying fractions could be beneficial.']
+2025-03-01 14:08:43,133 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:08:43,135 - INFO - MCQ 5.NF.B.4 valid with suggestions: ['Consider adding a brief explanation or reminder about how to multiply fractions for students who might be struggling with the concept.', 'To enhance understanding, it might be helpful to include a visual representation of the fractions and their multiplication.', 'Incorporate a real-world context to the distractors to make the question more engaging and to help students understand why the incorrect options are not viable.']
+2025-03-01 14:08:49,140 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:08:49,144 - INFO - MCQ 5.NF.B.4.a valid with suggestions: ["Consider rephrasing the question for clarity, such as specifying that 'each part is considered as 1/5 of the whole chocolate bar' to ensure understanding.", 'Enhance the explanation by linking the concept directly to the standard, explaining how multiplying fractions by whole numbers is applied in this context.']
+2025-03-01 14:08:52,995 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:08:52,996 - WARNING - MCQ 5.NF.B.4.a failed validation: ['Explanation contains a calculation error. The explanation starts with multiplying the fractions instead of adding them.']
+2025-03-01 14:08:57,299 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:08:57,302 - WARNING - MCQ 5.NF.B.4.b failed validation: ['Incorrect calculation of the area', 'Incorrect correct answer option']
+2025-03-01 14:09:00,805 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:09:00,807 - WARNING - MCQ 5.NF.B.4.b failed validation: ['The marked correct answer is incorrect.']
+2025-03-01 14:09:06,649 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:09:06,653 - INFO - MCQ 5.NF.B.5 valid with suggestions: ['Consider adding context or a brief explanation to the options to enhance understanding and engagement. For example, explain why the other quantities (B, C, D) would not be appropriate choices given the scenario.', 'To further align with the standard 5.NF.B.5, which involves interpreting multiplication as scaling, it could be beneficial to include a follow-up question that asks students to explain why multiplying by 1/2 results in the quantity being halved, reinforcing the concept of scaling.']
+2025-03-01 14:09:11,564 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:09:11,576 - INFO - MCQ 5.NF.B.5 valid with suggestions: ['Consider adding a brief explanation or reminder about the formula for calculating area in the explanation to reinforce learning.', 'To make the question more engaging, you might include a visual diagram of the rectangle before and after the dimensions are doubled.']
+2025-03-01 14:09:14,706 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:09:14,710 - INFO - MCQ 5.MD.A.1 valid with suggestions: ['Consider adding context or a story to make the question more engaging for Grade 5 students.', 'Ensure that students have been taught the conversion between liters and milliliters before presenting this question.']
+2025-03-01 14:09:20,368 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:09:20,380 - INFO - MCQ 5.MD.A.1 valid with suggestions: ["Consider rephrasing the question for enhanced clarity, such as: 'How many meters are equivalent to a 5-kilometer race?' to avoid any potential ambiguity.", 'It might be beneficial to include a broader range of distractors that challenge students to think about the conversion factor more critically. For example, an option that suggests multiplying by 10 or 100 could test common misconceptions.']
+2025-03-01 14:09:24,374 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:09:24,379 - INFO - MCQ 5.MD.C.3 valid with suggestions: ["Consider adding units of measurement (e.g., 'cubic blocks') to the correct answer and question to reinforce understanding of volume measurement.", "Enhance clarity by specifying that the blocks are all of the same size, ensuring the question's assumptions are clear to all students."]
+2025-03-01 14:09:29,604 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:09:29,605 - WARNING - MCQ 5.MD.C.3 failed validation: ['Duplicate options', 'Incorrect calculation in explanation']
+2025-03-01 14:09:34,212 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:09:34,213 - INFO - MCQ 5.MD.C.4 valid with suggestions: ['Consider adding a brief explanation or hint about how to calculate the volume of a rectangular prism to make the question more educational.', "To enhance clarity, specify that 'cubic cm blocks' refers to blocks that are 1 cubic cm in size, as this might not be immediately clear to all students."]
+2025-03-01 14:09:41,058 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:09:41,062 - WARNING - MCQ 5.MD.C.4 failed validation: ['Logical error in question setup', 'Incorrect correct answer based on question description']
+2025-03-01 14:09:47,680 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:09:47,685 - WARNING - MCQ 5.MD.C.5 failed validation: ['The marked correct answer is incorrect.']
+2025-03-01 14:09:53,094 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-01 14:09:53,257 - INFO - MCQ 5.MD.C.5 valid with suggestions: ['Consider including a brief explanation or hint on how to calculate the volume of a cube, to make the question more educational and supportive of learning.', "To enhance clarity, you might specify that the garden box has equal sides, as the term 'cube-shaped' might not be immediately clear to all students.", 'To improve the quality of distractors, ensure that the incorrect options (B, C, D) are based on common misconceptions or calculation errors related to the concept of volume, such as squaring instead of cubing, to enhance the learning experience.']
+2025-03-01 14:09:53,272 - INFO - Validation complete: 34 valid, 20 invalid
+2025-03-01 14:09:53,534 - INFO - Saved 34 MCQs to grade5_math_mcqs.json
+2025-03-01 15:04:47,544 - INFO - Attempting to run pipeline with web scraping
+2025-03-01 15:04:47,546 - INFO - Attempting to fetch standards from the web
+2025-03-01 15:04:47,546 - INFO - ====== WebDriver manager ======
+2025-03-01 15:04:50,834 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-01 15:04:54,956 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-01 15:04:58,267 - INFO - Driver [C:\Users\B_S_OkoliPC\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-01 15:05:05,421 - INFO - Attempting to fetch content from https://www.thecorestandards.org/Math/Content/5/
+2025-03-01 15:05:26,953 - INFO - Successfully fetched content from https://www.thecorestandards.org/Math/Content/5/
+2025-03-01 15:05:30,031 - INFO - Page title: Just a moment...
+2025-03-01 15:05:30,037 - INFO - Initial extraction yielded few results, trying targeted approach
+2025-03-01 15:05:30,039 - WARNING - BeautifulSoup parsing didn't extract enough standards, falling back to LLM
+2025-03-01 15:05:36,737 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:05:36,745 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:05:38,157 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:05:38,158 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:05:39,777 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:05:39,779 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:05:39,779 - ERROR - Error extracting standards with LLM: RetryError[<Future at 0x1450b8e5d90 state=finished raised AuthenticationError>]
+2025-03-01 15:05:39,780 - INFO - Using LLM to generate Common Core standards (fallback method)
+2025-03-01 15:05:40,195 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:05:40,197 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:05:41,565 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:05:41,567 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:05:43,105 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:05:43,106 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:05:43,107 - ERROR - Error generating standards with LLM: RetryError[<Future at 0x1450b8ee790 state=finished raised AuthenticationError>]
+2025-03-01 15:05:43,107 - INFO - Using hardcoded standards as final fallback
+2025-03-01 15:05:43,112 - INFO - Got 38 standards
+2025-03-01 15:05:43,112 - ERROR - Unhandled exception in main: name 'priority_domain' is not defined
+2025-03-01 15:05:43,112 - ERROR - Traceback: NameError: name 'priority_domain' is not defined
+2025-03-01 15:09:09,110 - INFO - Attempting to run pipeline with web scraping
+2025-03-01 15:09:09,111 - INFO - Attempting to fetch standards from the web
+2025-03-01 15:09:09,111 - INFO - ====== WebDriver manager ======
+2025-03-01 15:09:11,875 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-01 15:09:12,044 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-01 15:09:12,340 - INFO - Driver [C:\Users\B_S_OkoliPC\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-01 15:09:15,160 - INFO - Attempting to fetch content from https://www.thecorestandards.org/Math/Content/5/
+2025-03-01 15:09:36,850 - INFO - Successfully fetched content from https://www.thecorestandards.org/Math/Content/5/
+2025-03-01 15:09:41,230 - INFO - Page title: Just a moment...
+2025-03-01 15:09:41,238 - INFO - Initial extraction yielded few results, trying targeted approach
+2025-03-01 15:09:41,240 - WARNING - BeautifulSoup parsing didn't extract enough standards, falling back to LLM
+2025-03-01 15:09:48,951 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:09:48,959 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:09:50,363 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:09:50,364 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:09:52,408 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:09:52,409 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:09:52,410 - ERROR - Error extracting standards with LLM: RetryError[<Future at 0x2e3141e6010 state=finished raised AuthenticationError>]
+2025-03-01 15:09:52,410 - INFO - Using LLM to generate Common Core standards (fallback method)
+2025-03-01 15:09:52,779 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:09:52,781 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:09:54,138 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:09:54,139 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:09:56,358 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:09:56,360 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:09:56,360 - ERROR - Error generating standards with LLM: RetryError[<Future at 0x2e3141ee810 state=finished raised AuthenticationError>]
+2025-03-01 15:09:56,360 - INFO - Using hardcoded standards as final fallback
+2025-03-01 15:09:56,364 - INFO - Got 38 standards
+2025-03-01 15:09:56,365 - INFO - Generating MCQs for domain: Geometry (4 standards)
+2025-03-01 15:09:56,366 - INFO - Generating questions for 5.G.A.1
+2025-03-01 15:09:56,711 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:09:56,712 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:09:58,064 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:09:58,065 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:09:59,714 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:09:59,715 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:09:59,715 - ERROR - Error generating MCQs for 5.G.A.1: RetryError[<Future at 0x2e314208090 state=finished raised AuthenticationError>]
+2025-03-01 15:09:59,716 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314208090 state=finished raised AuthenticationError>]
+2025-03-01 15:09:59,716 - WARNING - Failed to generate MCQs for 5.G.A.1
+2025-03-01 15:09:59,716 - INFO - Generating questions for 5.G.A.2
+2025-03-01 15:10:00,093 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:00,094 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:01,545 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:01,546 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:03,055 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:03,057 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:03,057 - ERROR - Error generating MCQs for 5.G.A.2: RetryError[<Future at 0x2e314215510 state=finished raised AuthenticationError>]
+2025-03-01 15:10:03,058 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314215510 state=finished raised AuthenticationError>]
+2025-03-01 15:10:03,058 - WARNING - Failed to generate MCQs for 5.G.A.2
+2025-03-01 15:10:03,058 - INFO - Generating questions for 5.G.B.3
+2025-03-01 15:10:03,453 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:03,455 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:04,847 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:04,849 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:06,706 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:06,707 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:06,708 - ERROR - Error generating MCQs for 5.G.B.3: RetryError[<Future at 0x2e314222c10 state=finished raised AuthenticationError>]
+2025-03-01 15:10:06,709 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314222c10 state=finished raised AuthenticationError>]
+2025-03-01 15:10:06,709 - WARNING - Failed to generate MCQs for 5.G.B.3
+2025-03-01 15:10:06,709 - INFO - Generating questions for 5.G.B.4
+2025-03-01 15:10:07,109 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:07,112 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:08,468 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:08,469 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:10,534 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:10,535 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:10,536 - ERROR - Error generating MCQs for 5.G.B.4: RetryError[<Future at 0x2e314234550 state=finished raised AuthenticationError>]
+2025-03-01 15:10:10,536 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314234550 state=finished raised AuthenticationError>]
+2025-03-01 15:10:10,537 - WARNING - Failed to generate MCQs for 5.G.B.4
+2025-03-01 15:10:10,537 - INFO - Generating MCQs for domain: Number & Operations in Base Ten (9 standards)
+2025-03-01 15:10:10,537 - INFO - Generating questions for 5.NBT.A.1
+2025-03-01 15:10:10,913 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:10,915 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:12,279 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:12,280 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:14,413 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:14,415 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:14,416 - ERROR - Error generating MCQs for 5.NBT.A.1: RetryError[<Future at 0x2e3142341d0 state=finished raised AuthenticationError>]
+2025-03-01 15:10:14,416 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e3142341d0 state=finished raised AuthenticationError>]
+2025-03-01 15:10:14,417 - WARNING - Failed to generate MCQs for 5.NBT.A.1
+2025-03-01 15:10:14,417 - INFO - Generating questions for 5.NBT.A.2
+2025-03-01 15:10:14,788 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:14,788 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:16,220 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:16,221 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:17,983 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:17,985 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:17,986 - ERROR - Error generating MCQs for 5.NBT.A.2: RetryError[<Future at 0x2e31423b790 state=finished raised AuthenticationError>]
+2025-03-01 15:10:17,986 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e31423b790 state=finished raised AuthenticationError>]
+2025-03-01 15:10:17,987 - WARNING - Failed to generate MCQs for 5.NBT.A.2
+2025-03-01 15:10:17,987 - INFO - Generating questions for 5.NBT.A.3
+2025-03-01 15:10:18,349 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:18,350 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:19,741 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:19,742 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:21,431 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:21,432 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:21,433 - ERROR - Error generating MCQs for 5.NBT.A.3: RetryError[<Future at 0x2e314235810 state=finished raised AuthenticationError>]
+2025-03-01 15:10:21,433 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314235810 state=finished raised AuthenticationError>]
+2025-03-01 15:10:21,433 - WARNING - Failed to generate MCQs for 5.NBT.A.3
+2025-03-01 15:10:21,434 - INFO - Generating questions for 5.NBT.A.3.a
+2025-03-01 15:10:21,801 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:21,802 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:23,191 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:23,192 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:24,580 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:24,582 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:24,583 - ERROR - Error generating MCQs for 5.NBT.A.3.a: RetryError[<Future at 0x2e31424fdd0 state=finished raised AuthenticationError>]
+2025-03-01 15:10:24,584 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e31424fdd0 state=finished raised AuthenticationError>]
+2025-03-01 15:10:24,584 - WARNING - Failed to generate MCQs for 5.NBT.A.3.a
+2025-03-01 15:10:24,585 - INFO - Generating questions for 5.NBT.A.3.b
+2025-03-01 15:10:24,944 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:24,947 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:26,354 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:26,357 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:28,605 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:28,608 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:28,609 - ERROR - Error generating MCQs for 5.NBT.A.3.b: RetryError[<Future at 0x2e31424e190 state=finished raised AuthenticationError>]
+2025-03-01 15:10:28,610 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e31424e190 state=finished raised AuthenticationError>]
+2025-03-01 15:10:28,610 - WARNING - Failed to generate MCQs for 5.NBT.A.3.b
+2025-03-01 15:10:28,611 - INFO - Generating questions for 5.NBT.A.4
+2025-03-01 15:10:29,001 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:29,003 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:30,394 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:30,396 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:32,504 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:32,527 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:32,535 - ERROR - Error generating MCQs for 5.NBT.A.4: RetryError[<Future at 0x2e3142534d0 state=finished raised AuthenticationError>]
+2025-03-01 15:10:32,581 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e3142534d0 state=finished raised AuthenticationError>]
+2025-03-01 15:10:32,605 - WARNING - Failed to generate MCQs for 5.NBT.A.4
+2025-03-01 15:10:32,611 - INFO - Generating questions for 5.NBT.B.5
+2025-03-01 15:10:33,034 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:33,038 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:34,484 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:34,488 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:36,208 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:36,210 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:36,211 - ERROR - Error generating MCQs for 5.NBT.B.5: RetryError[<Future at 0x2e314251710 state=finished raised AuthenticationError>]
+2025-03-01 15:10:36,212 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314251710 state=finished raised AuthenticationError>]
+2025-03-01 15:10:36,212 - WARNING - Failed to generate MCQs for 5.NBT.B.5
+2025-03-01 15:10:36,213 - INFO - Generating questions for 5.NBT.B.6
+2025-03-01 15:10:36,579 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:36,581 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:37,960 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:37,962 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:39,719 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:39,721 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:39,722 - ERROR - Error generating MCQs for 5.NBT.B.6: RetryError[<Future at 0x2e314264c10 state=finished raised AuthenticationError>]
+2025-03-01 15:10:39,722 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314264c10 state=finished raised AuthenticationError>]
+2025-03-01 15:10:39,723 - WARNING - Failed to generate MCQs for 5.NBT.B.6
+2025-03-01 15:10:39,723 - INFO - Generating questions for 5.NBT.B.7
+2025-03-01 15:10:40,109 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:40,116 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:41,510 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:41,512 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:43,217 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:43,220 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:43,221 - ERROR - Error generating MCQs for 5.NBT.B.7: RetryError[<Future at 0x2e3142581d0 state=finished raised AuthenticationError>]
+2025-03-01 15:10:43,222 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e3142581d0 state=finished raised AuthenticationError>]
+2025-03-01 15:10:43,222 - WARNING - Failed to generate MCQs for 5.NBT.B.7
+2025-03-01 15:10:43,223 - INFO - Generating MCQs for domain: Operations & Algebraic Thinking (3 standards)
+2025-03-01 15:10:43,224 - INFO - Generating questions for 5.OA.A.1
+2025-03-01 15:10:43,638 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:43,639 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:45,038 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:45,040 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:46,542 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:46,543 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:46,543 - ERROR - Error generating MCQs for 5.OA.A.1: RetryError[<Future at 0x2e314260f10 state=finished raised AuthenticationError>]
+2025-03-01 15:10:46,544 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314260f10 state=finished raised AuthenticationError>]
+2025-03-01 15:10:46,544 - WARNING - Failed to generate MCQs for 5.OA.A.1
+2025-03-01 15:10:46,544 - INFO - Generating questions for 5.OA.A.2
+2025-03-01 15:10:46,971 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:46,972 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:48,416 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:48,417 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:50,748 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:50,749 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:50,749 - ERROR - Error generating MCQs for 5.OA.A.2: RetryError[<Future at 0x2e31425a810 state=finished raised AuthenticationError>]
+2025-03-01 15:10:50,750 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e31425a810 state=finished raised AuthenticationError>]
+2025-03-01 15:10:50,750 - WARNING - Failed to generate MCQs for 5.OA.A.2
+2025-03-01 15:10:50,750 - INFO - Generating questions for 5.OA.B.3
+2025-03-01 15:10:51,118 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:51,119 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:52,497 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:52,499 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:54,493 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:54,494 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:54,495 - ERROR - Error generating MCQs for 5.OA.B.3: RetryError[<Future at 0x2e31423bbd0 state=finished raised AuthenticationError>]
+2025-03-01 15:10:54,495 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e31423bbd0 state=finished raised AuthenticationError>]
+2025-03-01 15:10:54,496 - WARNING - Failed to generate MCQs for 5.OA.B.3
+2025-03-01 15:10:54,496 - INFO - Generating MCQs for domain: Number & Operations—Fractions (12 standards)
+2025-03-01 15:10:54,499 - INFO - Generating questions for 5.NF.A.1
+2025-03-01 15:10:54,908 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:54,909 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:56,279 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:56,280 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:57,902 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:57,904 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:57,905 - ERROR - Error generating MCQs for 5.NF.A.1: RetryError[<Future at 0x2e31423b950 state=finished raised AuthenticationError>]
+2025-03-01 15:10:57,905 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e31423b950 state=finished raised AuthenticationError>]
+2025-03-01 15:10:57,906 - WARNING - Failed to generate MCQs for 5.NF.A.1
+2025-03-01 15:10:57,906 - INFO - Generating questions for 5.NF.A.2
+2025-03-01 15:10:58,253 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:58,254 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:10:59,638 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:10:59,639 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:01,441 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:01,442 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:01,444 - ERROR - Error generating MCQs for 5.NF.A.2: RetryError[<Future at 0x2e314234a90 state=finished raised AuthenticationError>]
+2025-03-01 15:11:01,444 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314234a90 state=finished raised AuthenticationError>]
+2025-03-01 15:11:01,445 - WARNING - Failed to generate MCQs for 5.NF.A.2
+2025-03-01 15:11:01,445 - INFO - Generating questions for 5.NF.B.3
+2025-03-01 15:11:01,859 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:01,859 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:03,208 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:03,209 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:05,287 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:05,289 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:05,289 - ERROR - Error generating MCQs for 5.NF.B.3: RetryError[<Future at 0x2e314252490 state=finished raised AuthenticationError>]
+2025-03-01 15:11:05,290 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314252490 state=finished raised AuthenticationError>]
+2025-03-01 15:11:05,290 - WARNING - Failed to generate MCQs for 5.NF.B.3
+2025-03-01 15:11:05,291 - INFO - Generating questions for 5.NF.B.4
+2025-03-01 15:11:05,669 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:05,670 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:07,024 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:07,025 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:09,220 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:09,221 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:09,222 - ERROR - Error generating MCQs for 5.NF.B.4: RetryError[<Future at 0x2e314214590 state=finished raised AuthenticationError>]
+2025-03-01 15:11:09,222 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314214590 state=finished raised AuthenticationError>]
+2025-03-01 15:11:09,223 - WARNING - Failed to generate MCQs for 5.NF.B.4
+2025-03-01 15:11:09,223 - INFO - Generating questions for 5.NF.B.4.a
+2025-03-01 15:11:09,583 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:09,583 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:10,928 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:10,929 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:13,288 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:13,289 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:13,290 - ERROR - Error generating MCQs for 5.NF.B.4.a: RetryError[<Future at 0x2e314221110 state=finished raised AuthenticationError>]
+2025-03-01 15:11:13,290 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314221110 state=finished raised AuthenticationError>]
+2025-03-01 15:11:13,291 - WARNING - Failed to generate MCQs for 5.NF.B.4.a
+2025-03-01 15:11:13,291 - INFO - Generating questions for 5.NF.B.4.b
+2025-03-01 15:11:14,682 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:14,683 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:16,077 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:16,078 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:17,918 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:17,919 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:17,920 - ERROR - Error generating MCQs for 5.NF.B.4.b: RetryError[<Future at 0x2e31420aed0 state=finished raised AuthenticationError>]
+2025-03-01 15:11:17,920 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e31420aed0 state=finished raised AuthenticationError>]
+2025-03-01 15:11:17,922 - WARNING - Failed to generate MCQs for 5.NF.B.4.b
+2025-03-01 15:11:17,922 - INFO - Generating questions for 5.NF.B.5
+2025-03-01 15:11:18,296 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:18,299 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:19,663 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:19,665 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:21,517 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:21,520 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:21,521 - ERROR - Error generating MCQs for 5.NF.B.5: RetryError[<Future at 0x2e31422dc50 state=finished raised AuthenticationError>]
+2025-03-01 15:11:21,522 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e31422dc50 state=finished raised AuthenticationError>]
+2025-03-01 15:11:21,524 - WARNING - Failed to generate MCQs for 5.NF.B.5
+2025-03-01 15:11:21,524 - INFO - Generating questions for 5.NF.B.6
+2025-03-01 15:11:21,930 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:21,934 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:23,322 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:23,325 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:24,778 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:24,780 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:24,781 - ERROR - Error generating MCQs for 5.NF.B.6: RetryError[<Future at 0x2e3141e5b50 state=finished raised AuthenticationError>]
+2025-03-01 15:11:24,782 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e3141e5b50 state=finished raised AuthenticationError>]
+2025-03-01 15:11:24,783 - WARNING - Failed to generate MCQs for 5.NF.B.6
+2025-03-01 15:11:24,783 - INFO - Generating questions for 5.NF.B.7
+2025-03-01 15:11:25,154 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:25,156 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:26,527 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:26,528 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:28,755 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:28,758 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:28,760 - ERROR - Error generating MCQs for 5.NF.B.7: RetryError[<Future at 0x2e3142661d0 state=finished raised AuthenticationError>]
+2025-03-01 15:11:28,761 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e3142661d0 state=finished raised AuthenticationError>]
+2025-03-01 15:11:28,762 - WARNING - Failed to generate MCQs for 5.NF.B.7
+2025-03-01 15:11:28,763 - INFO - Generating questions for 5.NF.B.7.a
+2025-03-01 15:11:29,144 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:29,146 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:30,506 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:30,508 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:32,635 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:32,639 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:32,641 - ERROR - Error generating MCQs for 5.NF.B.7.a: RetryError[<Future at 0x2e31423c6d0 state=finished raised AuthenticationError>]
+2025-03-01 15:11:32,642 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e31423c6d0 state=finished raised AuthenticationError>]
+2025-03-01 15:11:32,643 - WARNING - Failed to generate MCQs for 5.NF.B.7.a
+2025-03-01 15:11:32,644 - INFO - Generating questions for 5.NF.B.7.b
+2025-03-01 15:11:33,019 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:33,022 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:34,452 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:34,456 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:36,153 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:36,157 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:36,159 - ERROR - Error generating MCQs for 5.NF.B.7.b: RetryError[<Future at 0x2e314261450 state=finished raised AuthenticationError>]
+2025-03-01 15:11:36,159 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314261450 state=finished raised AuthenticationError>]
+2025-03-01 15:11:36,161 - WARNING - Failed to generate MCQs for 5.NF.B.7.b
+2025-03-01 15:11:36,162 - INFO - Generating questions for 5.NF.B.7.c
+2025-03-01 15:11:36,580 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:36,583 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:37,997 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:38,001 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:39,649 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:39,651 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:39,652 - ERROR - Error generating MCQs for 5.NF.B.7.c: RetryError[<Future at 0x2e314210c90 state=finished raised AuthenticationError>]
+2025-03-01 15:11:39,653 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314210c90 state=finished raised AuthenticationError>]
+2025-03-01 15:11:39,654 - WARNING - Failed to generate MCQs for 5.NF.B.7.c
+2025-03-01 15:11:39,655 - INFO - Generating MCQs for domain: Measurement & Data (10 standards)
+2025-03-01 15:11:39,656 - INFO - Generating questions for 5.MD.A.1
+2025-03-01 15:11:40,032 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:40,033 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:41,405 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:41,407 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:43,560 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:43,563 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:43,565 - ERROR - Error generating MCQs for 5.MD.A.1: RetryError[<Future at 0x2e31423ee50 state=finished raised AuthenticationError>]
+2025-03-01 15:11:43,566 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e31423ee50 state=finished raised AuthenticationError>]
+2025-03-01 15:11:43,567 - WARNING - Failed to generate MCQs for 5.MD.A.1
+2025-03-01 15:11:43,567 - INFO - Generating questions for 5.MD.B.2
+2025-03-01 15:11:43,975 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:43,976 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:45,439 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:45,441 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:46,905 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:46,907 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:46,909 - ERROR - Error generating MCQs for 5.MD.B.2: RetryError[<Future at 0x2e314274fd0 state=finished raised AuthenticationError>]
+2025-03-01 15:11:46,910 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314274fd0 state=finished raised AuthenticationError>]
+2025-03-01 15:11:46,910 - WARNING - Failed to generate MCQs for 5.MD.B.2
+2025-03-01 15:11:46,911 - INFO - Generating questions for 5.MD.C.3
+2025-03-01 15:11:47,292 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:47,293 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:48,668 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:48,670 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:50,274 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:50,276 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:50,277 - ERROR - Error generating MCQs for 5.MD.C.3: RetryError[<Future at 0x2e314211ad0 state=finished raised AuthenticationError>]
+2025-03-01 15:11:50,278 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314211ad0 state=finished raised AuthenticationError>]
+2025-03-01 15:11:50,278 - WARNING - Failed to generate MCQs for 5.MD.C.3
+2025-03-01 15:11:50,279 - INFO - Generating questions for 5.MD.C.3.a
+2025-03-01 15:11:50,657 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:50,658 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:52,033 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:52,034 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:53,642 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:53,644 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:53,645 - ERROR - Error generating MCQs for 5.MD.C.3.a: RetryError[<Future at 0x2e31427cd50 state=finished raised AuthenticationError>]
+2025-03-01 15:11:53,645 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e31427cd50 state=finished raised AuthenticationError>]
+2025-03-01 15:11:53,646 - WARNING - Failed to generate MCQs for 5.MD.C.3.a
+2025-03-01 15:11:53,647 - INFO - Generating questions for 5.MD.C.3.b
+2025-03-01 15:11:54,007 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:54,009 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:55,397 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:55,399 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:57,218 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:57,220 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:57,220 - ERROR - Error generating MCQs for 5.MD.C.3.b: RetryError[<Future at 0x2e314276650 state=finished raised AuthenticationError>]
+2025-03-01 15:11:57,221 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314276650 state=finished raised AuthenticationError>]
+2025-03-01 15:11:57,221 - WARNING - Failed to generate MCQs for 5.MD.C.3.b
+2025-03-01 15:11:57,221 - INFO - Generating questions for 5.MD.C.4
+2025-03-01 15:11:57,604 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:57,605 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:11:58,967 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:11:58,969 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:00,987 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:00,989 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:00,990 - ERROR - Error generating MCQs for 5.MD.C.4: RetryError[<Future at 0x2e31428d3d0 state=finished raised AuthenticationError>]
+2025-03-01 15:12:00,990 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e31428d3d0 state=finished raised AuthenticationError>]
+2025-03-01 15:12:00,990 - WARNING - Failed to generate MCQs for 5.MD.C.4
+2025-03-01 15:12:00,991 - INFO - Generating questions for 5.MD.C.5
+2025-03-01 15:12:01,354 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:01,357 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:02,732 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:02,733 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:05,096 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:05,097 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:05,097 - ERROR - Error generating MCQs for 5.MD.C.5: RetryError[<Future at 0x2e31427d310 state=finished raised AuthenticationError>]
+2025-03-01 15:12:05,098 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e31427d310 state=finished raised AuthenticationError>]
+2025-03-01 15:12:05,098 - WARNING - Failed to generate MCQs for 5.MD.C.5
+2025-03-01 15:12:05,099 - INFO - Generating questions for 5.MD.C.5.a
+2025-03-01 15:12:05,470 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:05,471 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:06,824 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:06,824 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:08,599 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:08,601 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:08,601 - ERROR - Error generating MCQs for 5.MD.C.5.a: RetryError[<Future at 0x2e314290d90 state=finished raised AuthenticationError>]
+2025-03-01 15:12:08,601 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314290d90 state=finished raised AuthenticationError>]
+2025-03-01 15:12:08,601 - WARNING - Failed to generate MCQs for 5.MD.C.5.a
+2025-03-01 15:12:08,602 - INFO - Generating questions for 5.MD.C.5.b
+2025-03-01 15:12:08,948 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:08,949 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:10,666 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:10,668 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:12,483 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:12,484 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:12,485 - ERROR - Error generating MCQs for 5.MD.C.5.b: RetryError[<Future at 0x2e31428d010 state=finished raised AuthenticationError>]
+2025-03-01 15:12:12,485 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e31428d010 state=finished raised AuthenticationError>]
+2025-03-01 15:12:12,486 - WARNING - Failed to generate MCQs for 5.MD.C.5.b
+2025-03-01 15:12:12,486 - INFO - Generating questions for 5.MD.C.5.c
+2025-03-01 15:12:12,913 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:12,914 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:14,322 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:14,323 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:15,873 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:15,875 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:15,875 - ERROR - Error generating MCQs for 5.MD.C.5.c: RetryError[<Future at 0x2e314299a50 state=finished raised AuthenticationError>]
+2025-03-01 15:12:15,876 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e314299a50 state=finished raised AuthenticationError>]
+2025-03-01 15:12:15,877 - WARNING - Failed to generate MCQs for 5.MD.C.5.c
+2025-03-01 15:12:15,877 - ERROR - Failed to generate MCQs
+2025-03-01 15:12:15,878 - INFO - Web scraping approach failed, switching to fallback method
+2025-03-01 15:12:15,878 - INFO - Using fallback method to generate standards
+2025-03-01 15:12:15,878 - INFO - Using LLM to generate Common Core standards (fallback method)
+2025-03-01 15:12:16,252 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:16,255 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:17,632 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:17,633 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:19,374 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:19,376 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:19,376 - ERROR - Error generating standards with LLM: RetryError[<Future at 0x2e3142907d0 state=finished raised AuthenticationError>]
+2025-03-01 15:12:19,377 - INFO - Using hardcoded standards as final fallback
+2025-03-01 15:12:19,377 - INFO - Got 38 standards
+2025-03-01 15:12:19,378 - INFO - Generating MCQs for domain: Geometry (4 standards)
+2025-03-01 15:12:19,378 - INFO - Generating questions for 5.G.A.1
+2025-03-01 15:12:19,778 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:19,779 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:21,155 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:21,157 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:23,259 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:23,261 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:12:23,262 - ERROR - Error generating MCQs for 5.G.A.1: RetryError[<Future at 0x2e31427d490 state=finished raised AuthenticationError>]
+2025-03-01 15:12:23,263 - ERROR - Traceback: RetryError: RetryError[<Future at 0x2e31427d490 state=finished raised AuthenticationError>]
+2025-03-01 15:12:23,263 - WARNING - Failed to generate MCQs for 5.G.A.1
+2025-03-01 15:12:23,263 - INFO - Generating questions for 5.G.A.2
+2025-03-01 15:12:23,646 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:12:23,647 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:18:16,954 - INFO - Attempting to run pipeline with web scraping
+2025-03-01 15:18:16,955 - INFO - Attempting to fetch standards from the web
+2025-03-01 15:18:16,956 - INFO - ====== WebDriver manager ======
+2025-03-01 15:18:20,723 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-01 15:18:21,273 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-01 15:18:21,474 - INFO - Driver [C:\Users\B_S_OkoliPC\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-01 15:18:26,827 - INFO - Attempting to fetch content from https://www.thecorestandards.org/Math/Content/5/
+2025-03-01 15:18:50,391 - INFO - Successfully fetched content from https://www.thecorestandards.org/Math/Content/5/
+2025-03-01 15:19:00,543 - INFO - Page title: Just a moment...
+2025-03-01 15:19:00,554 - INFO - Initial extraction yielded few results, trying targeted approach
+2025-03-01 15:19:00,557 - WARNING - BeautifulSoup parsing didn't extract enough standards, falling back to LLM
+2025-03-01 15:19:08,036 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:19:08,047 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:19:09,468 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:19:09,471 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:19:11,926 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:19:11,927 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:19:11,929 - ERROR - Error extracting standards with LLM: RetryError[<Future at 0x2685ebf5c10 state=finished raised AuthenticationError>]
+2025-03-01 15:19:11,930 - INFO - Using LLM to generate Common Core standards (fallback method)
+2025-03-01 15:19:12,489 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:19:12,491 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:19:13,855 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:19:13,857 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:19:15,569 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:19:15,571 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:19:15,572 - ERROR - Error generating standards with LLM: RetryError[<Future at 0x2685ec02590 state=finished raised AuthenticationError>]
+2025-03-01 15:19:15,573 - INFO - Using hardcoded standards as final fallback
+2025-03-01 15:19:15,587 - INFO - Got 38 standards
+2025-03-01 15:19:15,588 - INFO - Generating MCQs for domain: Geometry (4 standards)
+2025-03-01 15:19:15,589 - INFO - Generating questions for 5.G.A.1
+2025-03-01 15:19:15,942 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:19:15,944 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
+2025-03-01 15:19:17,305 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-01 15:19:17,307 - WARNING - API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your-key**************************************************************************************************************************************************jvAA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}. Retrying...
